@@ -777,7 +777,7 @@ footer h5{
    background-color:#232c3b;
     color: #fff;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     padding:5px 10px;
     border-radius: 20px;
     text-align: center;
@@ -858,7 +858,7 @@ footer h5{
 .arrow-banner{
       position: absolute;
     z-index: 1000;
-    left: 250px;
+    left: 130px;
     top: 30px;
 }
 
