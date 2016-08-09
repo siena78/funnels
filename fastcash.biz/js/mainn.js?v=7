@@ -5,12 +5,12 @@ function validateEmail(email_value, from_page, fname)
   var def_value = document.getElementById("email").defaultValue;
   if(email_value == '' || email_value == def_value)
   {
-    alert('Please Enter Email Address');
+    alert('Bitte geben Sie E-Mail-Adresse');
     return false;
   }
   else if(!email_value.match(emailExp))
   {
-    alert('Please Enter Valid Email Address');
+    alert('Bitte geben Sie eine gültige Email Adresse an');
     return false;
   }
   
@@ -77,7 +77,7 @@ function processnow(semail, from_page, fname)
       //jQuery('#squeeze_form1').remove();
       //jQuery('#squeeze_form3').remove();
 
-      mem_rdirect = "accessgranted.php?email="+semail+(fname ? '&fname='+fname : '');
+      mem_rdirect = "accessgranted.html?email="+semail+(fname ? '&fname='+fname : '');
 
       if(from_page == 'exit')
         mem_rdirect = "signup.php?email="+semail+(fname ? '&fname='+fname : '');
