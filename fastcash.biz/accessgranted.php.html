@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="http://cdn.optimizely.com/js/3534720627.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>#1 FastCash.biz (Original)</title>
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Parallax Scrolling CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/favicon-fc.ico">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script language="javascript" src="js/jquery.blockUI.js%3Fv=1"></script>
+    <script>
+      var $viewportMeta = $('meta[name="viewport"]');
+      $('input, select, textarea').bind('focus blur', function(event) {
+      $viewportMeta.attr('content', 'width=device-width,initial-scale=1,maximum-scale=' +        (event.type == 'blur' ? 10 : 1));
+    });
+    </script>
+  <!-- Custom CSS -->
+  <link href="css/front-end.css%3Fv=68.css" rel="stylesheet">
+  <style>
+    @media (min-width: 1200px){
+      .top-logo .container {
+        width: 96% !important;
+      }
+    }
+  </style>
+  <script src="js/phpdate.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <div class="intro-header">
+    <!-- Top -->
+    <div class="top-logo">
+      <div class="container">
+        <div class="row">
+                    <div class="col-md-8">
+            <img src="assets/logo.png" alt="Logo" class="img-responsive" style="margin:0"/>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <div class="col-md-8 col-xs-12 license-text">
+              <h2>LICENSES LEFT </h2>
+              <h5>LAST CHECK: <script>document.write(date('M d, Y - h:i:s'));</script></h5>
+            </div>
+            <div class="col-md-4 col-xs-12 number">
+              <h3 id="spotcounter" class="bg-green">2</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.top-logo -->
+    <div class="fe-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h1 class="sq_tophl">Click The Button Below to Secure</h1>
+            <h2 class="sq_hl">1 Of The 10 Fast Cash Biz Memberships</h2>
+            <div class="video-wrapper">
+              <div align="center" class="embed-responsive embed-responsive-16by9">
+                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                  <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                    <iframe src="http://fast.wistia.net/embed/iframe/2nsxlek5yv?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe>
+                  </div>
+                </div>
+                <script src="http://fast.wistia.net/assets/external/E-v1.js" async></script>
+              </div>   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.intro-header -->
+  <div class="form-section-squeeze">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="disable_text">Please do not exit this page or your spot will be given to the next person in line waiting to watch this video.</h4>
+                    <button id="continue_btn" type="submit" onclick="gotoMem();">CLICK HERE TO PROCEED</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var spotcounter = 2;
+    function updateCounter()
+    {
+      if(spotcounter > 0)
+      {
+        $("#spotcounter").html(spotcounter--);
+        if(spotcounter == 1)
+          setTimeout(function(){updateCounter();}, 864*1000);
+        else
+          setTimeout(function(){updateCounter();}, 864*1000);
+      }
+      else
+      {
+        $("#spotcounter").html(0);
+      }
+    }
+    jQuery(document).ready(function(){
+      setTimeout(function(){updateCounter();}, 864*1000);
+    });
+    
+          /*var minutes = 8;
+      var seconds = 0;
+      var centiseconds = 0;
+        timerinter = setInterval(function() {
+        centiseconds -= 9;
+
+        if (centiseconds < 0) {
+            centiseconds = 99;
+            seconds--;
+        }
+
+        if (seconds < 0) {
+            seconds = 59;
+            minutes--;
+        }
+
+        if (minutes < 0) {
+            minutes = 0;
+            seconds = 0;
+            centiseconds = 0;
+            clearInterval(timerinter); 
+            changeBtnAttr();
+        }
+
+        if ((minutes + "").length < 2)
+            minutes = "0" + minutes;
+        if ((seconds + "").length < 2)
+            seconds = "0" + seconds;
+        if ((centiseconds + "").length < 2)
+            centiseconds = "0" + centiseconds;
+
+        $(".minutes").html(minutes);
+        $(".seconds").html(seconds);
+        $(".centiseconds").html(centiseconds);
+      }, 90); */
+    
+    function gotoMem()
+    {
+      PreventExitSplash = true;
+      var mem_rdirect = "signup.php";
+      top.location.href = mem_rdirect;
+      return false;
+    }
+    
+    function changeBtnAttr()
+    {
+      //$('#continue_btn').prop('disabled', false);
+      $('#continue_btn').removeAttr("disabled");
+      $('#continue_btn').removeClass('disable_button');
+      $("#continue_btn").on("click", function(){ gotoMem(); });
+    }
+    
+    var exitsplashmessage = '***************************************\n W A I T   B E F O R E   Y O U   G O !\n\n  CLICK *STAY ON THIS PAGE* BUTTON RIGHT NOW\n     TO STAY GET THE EXACT METHOD THAT\n  BANKED ME $35,827.29 IN JUST 24 HOURS!\n\n     >> STAY ON THIS PAGE <<\n\n***************************************';
+    var exitsplashpage = 'signup.php';
+  </script><br/>
+  <div class="footer-top">
+    <div class="row">
+      <div class="col-md-4">
+        <p>Copyright &copy; 2016 FastCash.biz  |  All Rights Reserved</p>
+        <p style="padding-top: 10px; font-size: 9px; text-align: justify; width: 71%;">NOTICE: Anyone caught selling illegal copies of the FastCash.biz or using any of the sales content from the FastCash.biz website will be reported to their hosting company, billing company and any other related companies for account closure. We will also follow up with a copyright infringement lawsuit in accordance with The Digital Millennium Copyright Act(DMCA)</p>
+      </div>
+      <div class="col-md-8">
+        <ul>
+          <li class="active"><a href="usdisclaimer.php.html">Government Disclaimer</a></li>
+          <li><a href="privacy.php.html">Privacy Policy</a></li>
+          <li><a href="tos.php.html">Terms</a></li>
+          <li><a href="disclaimer.php.html">Earnings Disclaimer</a></li>
+          <li><a target="_blank" href="anti_spam_policy.php.html">Spam Policy</a></li>
+          <li><a href="mailto:fastcashmembersarea@gmail.com">Support</a></li>
+        </ul>
+      </div>
+    </div>
+</div>
+<!-- Bootstrap Core JavaScript -->
+<script language="javascript" src="js/bootstrap.min.js"></script>
+
+  <script language="javascript" src="exitsplash.html"></script>
+</body>
+</html>
+  

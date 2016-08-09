@@ -1,0 +1,284 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/bebasneue_regular-webfont.eot');
+    src: url('fonts/bebasneue_regular-webfont.eot%3F') format('embedded-opentype'),
+         url('fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_regular-webfont.woff') format('woff'),
+         url('fonts/bebasneue_regular-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue_regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+}
+
+body,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+p{
+    line-height: 2em;
+    font-weight: 300;
+}
+
+a{
+  color: #000;
+}
+
+label{
+    color:#fff;
+}
+
+.container-fluid {
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+#overlay{
+    text-align: center;
+
+}
+
+#overlay .modal-content{
+    background: url(../assets/overlay-bg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#overlay .modal-header{
+    border:0;
+}
+
+#overlay img {
+    width: 48%;
+    margin: 0px auto 0;
+}
+
+#overlay h1{
+    margin-top:-10px;
+    color:#eb0f0f;
+        text-shadow: -3px 0 #fff, 0 3px #fff, 3px 0 #fff, 0 3px #fff;
+    font-size:45px;
+    font-weight: 700;
+}
+
+#overlay p {
+    font-size: 16px;
+    color: #201f1f;
+    line-height: 21px;
+}
+
+.x-mark{
+    width:100%;
+}
+
+#overlay .form-control:nth-child(odd){
+    width:48%;
+    margin-right:1.5%;
+    float:left;
+    margin-bottom: 3%;
+    border-radius:3px;
+    height:45px;
+}
+
+#overlay .form-control:nth-child(even){
+    width:48%;
+    margin-left:1.5%;
+    border-radius: 3px;
+    float:left;
+    height:45px;
+    margin-bottom: 3%;
+}
+
+#overlay form {
+    background: url(../assets/blue-bg.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin-left: -49px;
+    margin-right: -49px;
+    padding: 27px 56px;
+}
+
+#overlay h1 {
+    margin-top: -10px;
+    color: #eb0f0f;
+    text-shadow: -3px 0 #fff, 0 3px #fff, 3px 0 #fff, 0 3px #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+.input-wrapper{
+    width:85%;
+    margin:0 auto;
+}
+
+.submit-btn{
+    background: url(../assets/overlay-btn.png) no-repeat center center;
+    background-size: 100% 100%;
+    color:#fff;
+    padding:12px;
+    margin-top:10px;
+    border:0;
+    font-size:20px;
+}
+
+.submit-btn:hover{
+    background: url(../assets/overlay-btn-hover.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+button.btn.btn-danger.btn-lg.tradeBtn {
+    background: url(../assets/overlay-btn.png) no-repeat center center;
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 12px;
+    margin-top: 10px;
+    border: 0;
+    font-size: 20px !important;
+    width: 100%;
+}
+
+button.btn.btn-danger.btn-lg.tradeBtn:hover {
+    background: url(../assets/overlay-btn-hover.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#overlay .form-control:nth-child(even) {
+    width: 100%;
+    margin-left: 1.5%;
+    border-radius: 3px;
+    float: left;
+    height: 45px;
+    margin-bottom: 3%;
+}
+
+.progress {
+    height: 35px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #1F1C5A;
+    border-radius: 19px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+
+.progress-bar.progress-bar-success.progress-bar-striped.active {
+    line-height: 33px;
+    font-size: 13px;
+}
+
+.modal-body h5 {
+    color: red;
+    font-size: 18px;
+}
+
+
+  
+  .exit-page .modal-dialog {
+    margin: 2.5% auto 0 !important;
+     padding: 0px 23px 0px;
+     }
+
+.checkbox label {
+    display: block;
+}
+.checkbox  {
+    display: block;
+    margin: 5px !important;
+}
+
+.checkbox label a {
+    color: #fff;
+}
+
+#overlay p {
+    font-size: 14px;
+
+}
+
+.modal-content{
+	padding: 10px 23px;
+}
+
+#overlay .col-xs-6.form-group {
+    margin: 0;
+}
+
+@media(max-width: 600px){
+    .submit-btn{
+        font-size:16px;
+    }
+
+    #overlay form{
+        margin-left: -24px;
+        margin-right: -24px;
+    }
+
+    button.btn.btn-danger.btn-lg.tradeBtn {
+    background: url(../assets/overlay-btn.png) no-repeat center center;
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 12px;
+    margin-top: 10px;
+    border: 0;
+    font-size: 12px !important;
+    width: 100%;
+}
+}
+
+div#vidModal {
+    margin-top: 15px;
+}
+
+.modal-content #gaff2 {
+background: rgb(49, 49, 49)!important;
+padding: 30px;
+margin: 20px 0;
+}
+
+@media (min-width: 768px){
+.modal-dialog {
+	margin: 3% auto !important;
+}
+
+}
+
+.modal-content h1{
+    color: #eb0f0f;
+    text-shadow: -3px 0 #fff, 0 3px #fff, 3px 0 #fff, 0 3px #fff;
+    font-size: 33px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.modal-content p{
+	font-size: 14px;
+    color: #201f1f;
+    line-height: 21px;
+    text-align: center;
+    width: 80%;
+    margin: 10 auto;
+}
+
+.modal-content .progress{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.modal-content h5 {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+}
