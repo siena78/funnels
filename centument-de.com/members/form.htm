@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)http://trade.centument.co/form.php?email=&p=&p1=&p2=&p3=&p4&p5=&offerID= -->
+<html class="no-js" lang="en" data-livestyle-extension="available" hola_ext_inject="inited"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Registration To CENTUMENT</title>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+	<script src="./form_files/jquery-1.11.3.min.js"></script><style type="text/css"></style>
+    <script src="../../js/vendor/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="./form_files/boost-form.js"></script>
+	<link href="./form_files/boost-form.css" rel="stylesheet" type="text/css">
+	<script src="./form_files/p.js"></script>
+</head>
+<body>
+<div class="loader" id="regStatus">
+	<div id="statusMsg" style="padding: 50px 10px 10px 10px;">
+		<img border="0" src="./form_files/deposit-loader.gif" alt=""><br><br>
+		Please Wait...<br>
+		Registration In Progress...	</div>
+</div>
+<div id="SplashScreen"></div>
+<form id="loginForm" target="_top" action="" method="post" novalidate="novalidate">
+<input type="hidden" name="act" value="check">
+<div class="row">
+<div class="holder box box-12">
+<input type="text" id="login_email" placeholder="E-mail" name="email" data-rule-email="true" data-rule-required="true">
+</div>
+<div class="holder box box-12">
+<input type="password" id="login_password" placeholder="Password" name="password" data-rule-password="true" data-rule-required="true" data-rule-minlength="6">
+</div>
+<span onclick="ForgotForm()">Forgot Password?</span>
+<div class="box box-12">
+<button class="btn" type="submit">Sign In</button>
+</div>
+</div>
+</form>
+    
+<form id="forgotForm" novalidate="novalidate">
+<div class="row">
+<div class="holder box box-12">
+<input type="text" placeholder="E-mail" id="forgot_email" name="email" data-rule-email="true" data-rule-required="true" class="almostfullwidth">
+</div>
+<span onclick="LoginForm()">Back to Login</span>
+<div class="box box-12">
+<button class="btn" type="submit">Recover Password</button>
+</div>
+</div>
+</form>
+   
+<div id="boost-form" style="display: block;">
+	<form method="post" id="regForm" autocomplete="off" novalidate="novalidate">
+		<input type="hidden" id="autoSubmitScript" value="">        <div class="row">
+        <div class="holder left box box-6">
+		<input type="text" id="FirstName" placeholder="First Name" name="FirstName" maxlength="45" data-rule-lettersonly="true" data-rule-required="true" data-msg-required="Enter Valid First Name" data-rule-minlength="2" value="">
+        </div>
+        <div class="holder left box box-6">
+		<input type="text" id="LastName" placeholder="Last Name" name="LastName" class="" maxlength="45" data-rule-allletters="true" data-rule-required="true" data-msg-required="Enter Valid Last Name" data-rule-minlength="2" value="">
+        </div>
+        <div class="holder left box box-12">
+		<input type="text" id="email" placeholder="Email" name="email" maxlength="255" data-rule-email="true" data-rule-required="true" data-msg-required="Enter Valid Email" value="">
+        </div>
+        <div class="holder left box box-12">
+        <input type="password" placeholder="Choose a Password" name="password" id="password" maxlength="32" data-rule-password="true" data-rule-required="true" data-rule-minlength="6" data-rule-maxlength="15" data-msg-required="Must contain letters or digits" value="">
+        </div>
+        <div class="holder left box box-4">
+        <input type="text" id="kid" name="kid" class="" placeholder="" value="" maxlength="4" data-rule-digits="true" data-rule-required="true" data-msg-required="Enter Valid Prefix">
+        </div>
+        <div class="holder left box box-8">
+		<input type="text" id="phone" placeholder="Phone" name="phone" class="" maxlength="16" data-rule-digits="true" data-rule-required="true" data-msg-required="Enter Valid Phone Number" value="">
+        </div>
+        <div class="left box box-12">
+        <button class="btn" id="regBtn">Sign Up Now</button>
+        </div>
+        </div>
+	</form>
+</div>
+
+</body></html>

@@ -1,0 +1,698 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body, html {
+    /*font-family: Lato;*/
+    padding-top: 40px;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+}
+
+#top {
+    min-height: 705px;
+    background-color: #fff;
+    background-image: url(../images/header-bg.png);
+    background-size: 100% 100%;
+}
+
+#header-text {
+    width: 95%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #5d9214;
+    font-weight: 600;
+}
+
+#top span {
+    color: #0e363e;
+}
+
+#vid {
+    background-color: #fff;
+    padding: 20px;
+    float: left;
+    border: 0;
+    width: 100%;
+    height: 515px;
+    margin-top: 20px;
+    position: relative;
+    left: -50px;
+}
+
+#form-container {
+    background-color: #141b22;
+    border-radius: 10px;
+    min-height: 520px;
+}
+
+#form-container {
+    margin-top: 20px;
+}
+
+#form-header {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    height: 88px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#form-header>p {
+    position: relative;
+    top: 15px;
+}
+
+#form-header>p>span {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#news {
+    min-height: 755px;
+    background-color: #141b22;
+}
+
+#see-what {
+    color: #fff;
+    font-size: 28px;
+    margin-top: 28px;
+    margin-bottom: 70px;
+}
+
+#see-what2 {
+    text-transform: uppercase;
+    color: #485d72;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.news-item {
+    width: 605px;
+    height: 490px;
+    background-image: url(../images/news-item-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    outline: 0;
+    margin: 0 auto;
+}
+
+#news-items-container {
+    position: absolute;
+    overflow-x: hidden;
+    color: #fff;
+    font-size: 30px;
+}
+
+#news-img {
+    width: 575px;
+    height: 375px;
+    position: relative;
+    top: 88px;
+}
+
+#news-con {
+    position: relative;
+}
+
+#prev {
+    height: 105px;
+    width: 105px;
+    border-radius: 105px;
+    border: 5px solid #2d3b49;
+    line-height: 90px;
+    font-size: 70px;
+    color: #fff;
+    position: absolute;
+    top: 170px;
+    left: 10%;
+    cursor: pointer;
+}
+
+#next {
+    height: 105px;
+    width: 105px;
+    border-radius: 105px;
+    border: 5px solid #2d3b49;
+    line-height: 90px;
+    font-size: 70px;
+    color: #fff;
+    position: absolute;
+    top: 170px;
+    right: 10%;
+    cursor: pointer;
+}
+
+#click {
+    text-align: center;
+    height: 760px;
+    background-color: #fff;
+    border-bottom: 1px solid #dedede;
+}
+
+#click-p {
+    position: relative;
+    margin-top: 45px;
+    font-size: 28px;
+    color: #6da520;
+}
+
+#click-p span {
+    color: #242424;
+}
+
+#click-text {
+    width: 73%;
+    margin: 0 auto;
+    color: #636363;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#click-text span {
+    font-style: italic;
+}
+
+#game {
+    min-height: 770px;
+}
+
+#game-title {
+    font-size: 28px;
+    color: #242424;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 38px;
+}
+
+#game-title2 {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 22px;
+    color: #636363;
+    font-weight: 600;
+}
+
+#game-title2 span {
+    color: #6da520;
+}
+
+#arrows-text {
+    margin-top: 45px;
+    color: #5c5c5c;
+    font-size: 15px;
+}
+
+#arrows-text div {
+    margin-bottom: 25px;
+}
+
+#getStarted {
+    border-radius: 3px;
+    margin-top: -20px;
+    height: 80px;
+    background-color: #f98315;
+    box-shadow: 0 -5px 0 0 #ffa148;
+    color: #fff;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#getStarted-text {
+    top: 20px;
+}
+
+#getStarted-text2 {
+    top: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+#getStarted-text2 p {
+    width: 105px;
+    border-left: 1px solid white;
+    margin: 0 auto;
+}
+
+#complete {
+    background-image: url(../images/middle-bg.png);
+    background-size: 100% 100%;
+    min-height: 620px;
+    margin-top: 70px;
+}
+
+#complete-title {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 53px;
+    margin-bottom: 43px;
+}
+
+#split {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#complete-auto {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#flags {
+    margin-bottom: 30px;
+}
+
+#countries {
+    margin: 0 auto;
+    width: 40%;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+
+#twitter {
+    min-height: 875px;
+    background-color: #141b22;
+}
+
+#twitter-con {
+    position: relative;
+    margin: 0 auto;
+    width: 75%;
+    min-height: 550px;
+    background-image: url(../images/twitter.png);
+    background-size: 100% 100%;
+    font-family: arial;
+}
+
+#twitter-title {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+#twitter-title2 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    color: #485d72;
+    margin-bottom: 40px;
+    width: 64%;
+}
+
+#twitter-bird {
+    position: absolute;
+    bottom: -50px;
+    left: -200px;
+}
+
+.twitter-person {
+    height: 130px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: -1px 2px 0 4px #65baf1;
+    position: absolute;
+    right: -150px;
+    z-index: 999;
+    background-color: #ebf0f3;
+    top: 100px;
+}
+
+.twitter-person:nth-child(2) {
+    top: 250px;
+    right: -100px;
+}
+
+.twitter-person:nth-child(3) {
+    top: 400px;
+    right: -50px;
+}
+
+.person-img-con {
+    position: relative;
+    width: 70px;
+    margin-right: 10px;
+    top: 25px;
+    height: 120px;
+    float: left;
+}
+
+.person-img {
+    height: 70px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.person-title {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.person-text {
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+#fTwitter {
+    margin-left: 0;
+}
+
+img[src *="images/twitter"] {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+img[src *="images/twitter"] + span {
+    color: #aab8c2;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#first-form {
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.form-iframe {
+    border: 0;
+    width: 100%;
+    height: 400px;
+}
+
+.rotate {
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    opacity: 1;
+}
+
+@keyframes rotate {
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: rotateX(360deg);
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #twitter {
+        height: 800px;
+    }
+    .twitter-person {
+        display: block;
+        height: 130px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        box-shadow: -1px 2px 0 4px #65baf1;
+        position: relative;
+        right: 0 !important;
+        top: 0 !important;
+        margin-top: 20px;
+    }
+    .twitter-person {
+        height: 120px;
+    }
+    #twitter-con {
+        background: transparent;
+        background-image: none;
+    }
+    #top {
+        padding-bottom: 50px;
+    }
+    img[src="images/twitter-bird.png"] {
+        display: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+    
+    #vid {
+        left: 0;
+        padding: 0;
+    }
+    #header-text {
+        font-size: 30px;
+    }
+    #form-container {
+        margin-bottom: 100px;
+    }
+    #news {
+        min-height: 600px;
+    }
+    #click {
+        height: auto;
+    }
+    img[src="images/arrow.png"] {
+        transform: rotate(90deg);
+        margin: 0 auto;
+        display: block;
+    }
+    #getStarted {
+        text-align: center;
+        font-size: 25px;
+    }
+    #getStarted-text2,
+    #twitter-bird {
+        display: none;
+    }
+    #game-title,
+    #click-text,
+    #countries,
+    #twitter-title2 {
+        width: 100%;
+    }
+    #twitter-con {
+        min-height: 300px;
+    }
+    #twitter {
+        min-height: 700px;
+    }
+    img[src="images/news-person.png"] {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .getStarted-text {
+        font-size: 20px;
+        line-height: 75px;
+    }
+    #vid {
+        height: 250px;
+    }
+    .twitter-person {
+        margin: 0 auto;
+        width: 286px;
+        left: -15px;
+        height: 160px;
+        padding: -1px;
+        margin-bottom: 29px;
+        display: block;
+        position: relative;
+        /* margin-left: 0; */
+    }
+    #twitter {
+        min-height: 1000px;
+    }
+    .person-img-con {
+        position: relative;
+        top: 20px;
+    }
+    .person-right-side {
+        position: relative;
+        top: 20px;
+    }
+}
+
+
+/* HELPERS */
+
+.arrow_box {
+    position: relative;
+    background: #61951a;
+}
+
+.arrow_box:after,
+.arrow_box:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow_box:after {
+    border-color: rgba(97, 149, 26, 0);
+    border-top-color: #61951a;
+    border-width: 15px;
+    margin-left: -15px;
+}
+
+.arrow_box:before {
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 30px;
+    margin-left: -30px;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.ele-center {
+    display: block;
+    margin: 0 auto;
+    float: none;
+}
+
+.QA {
+    margin-bottom: 20px;
+}
+
+.QA-container {
+    background-image: url('../images/QA-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 660px;
+    padding-bottom: 200px;
+}
+
+.QA-container h2 {
+    font-size: 47px;
+    margin-bottom: 40px;
+}
+
+.Q-body {
+    min-height: 75px;
+    background-image: url('../images/q-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.question-holder {
+    color: #ff9000;
+}
+
+.Q {
+    font-size: 46px;
+    padding-right: 25px;
+    padding-left: 10px;
+    width: 14%;
+    display: inline-block;
+    font-family: 'EB Garamond', serif;
+}
+
+.question {
+    display: inline-block;
+    width: 70%;
+    color: #fff;
+    font-size: 17px;    
+}
+
+.A-body {
+    background-image: url('../images/a-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.answer-holder {
+    color: #f0f0f0;
+}
+
+.A {
+    font-size: 46px;
+    padding-right: 25px;
+    padding-left: 10px;
+    width: 14%;
+    display: inline-block;
+    color: #ff9000;
+    font-family: 'EB Garamond', serif;
+}
+
+.answer {
+    display: inline-block;
+    width: 70%;
+}
+
+.answer-holder .fa.fa-chevron-up {
+    float: right;
+    top: 30px;
+    position: relative;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+/*Rotate Cheveron up&down on click*/
+
+.question-holder .fa.fa-chevron-down {
+    float: right;
+    top: 30px;
+    position: relative;
+    right: 20px;
+    cursor: pointer;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    color: #fff;
+}
+
+.question-holder .fa.fa-chevron-down.down {
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+@media screen and (max-width:500px) {
+    .Q {
+        font-size: 36px;
+        padding-left: 6px;
+        padding-top: 10px;
+    }
+    .A {
+        font-size: 36px;
+        padding-left: 6px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .question-holder .fa.fa-chevron-down {
+        right: 5px;
+    }
+    Q. {
+        padding-left: 2px;
+    }
+    A. {
+        padding-left: 2px;
+    }
+}

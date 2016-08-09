@@ -1,0 +1,2 @@
+[22-Jul-2016 02:58:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/admincpcontument/public_html/centument-german.com/wp-content/themes/Divi/index.php on line 1
+[22-Jul-2016 03:00:16 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/admincpcontument/public_html/centument-german.com/wp-content/themes/Divi/index.php on line 1
