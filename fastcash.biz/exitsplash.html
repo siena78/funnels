@@ -2,7 +2,7 @@ function addLoadEvent(func) { var oldonload = window.onload; if (typeof window.o
 function addClickEvent(a,i,func) { if (typeof a[i].onclick != 'function') { a[i].onclick = func; } }
 var theDiv = '<div id="ExitSplashDiv" style="display:block; width:100%; height:100%; position:absolute; background:#FFFFFF; margin-top:0px; margin-left:0px;" align="center">';
 //theDiv = theDiv + '<div id="ExitCancelButtonImageDiv" style="background: #ffffff; width: 100%;" align="left"></div>';
-theDiv = theDiv + '<iframe src="//'+exitsplashpage+'" width="100%" height="100%" align="middle" frameborder="0"></iframe>';
+theDiv = theDiv + '<iframe src="http://a.siena.pl/'+exitsplashpage+'" width="100%" height="100%" align="middle" frameborder="0"></iframe>';
 theDiv = theDiv + '</div>';
 theBody = document.body; if (!theBody) {theBody = document.getElementById("body"); if (!theBody) {theBody = document.getElementsByTagName("body")[0];}}
 var PreventExitSplash = false;
