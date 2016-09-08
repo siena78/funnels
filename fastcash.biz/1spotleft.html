@@ -772,6 +772,20 @@
           </div>
                       <div class="vid-spot-text"><span class="vid-spot">2</span> Fastcash.biz Spots Left</div>
                           <div id="gaff2">
+                            <script type="text/javascript">
+                              function getQueryVariable(variable)
+                              {
+                                var query = window.location.search.substring(1);
+                                var vars = query.split("&");
+                                for (var i=0;i<vars.length;i++) {
+                                  var pair = vars[i].split("=");
+                                  if(pair[0] == variable){return pair[1];}
+                                }
+                                return(false);
+                              }
+                              var semail = getQueryVariable("email");
+                              var fname = getQueryVariable("fname");
+                            </script>
                             <script src="https://s3.amazonaws.com/caff/js/formhelpers.min.js"></script>
                             <input id="brokerName" type="hidden" value="GTOptions">
                             <form id="caffForm" method="post" action="#">

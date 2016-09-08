@@ -212,6 +212,20 @@
       </div>
       <div class="row">
         <div class="col-md-12" id="gaff2">
+          <script type="text/javascript">
+            function getQueryVariable(variable)
+            {
+              var query = window.location.search.substring(1);
+              var vars = query.split("&");
+              for (var i=0;i<vars.length;i++) {
+                var pair = vars[i].split("=");
+                if(pair[0] == variable){return pair[1];}
+              }
+              return(false);
+            }
+            var semail = getQueryVariable("email");
+            var fname = getQueryVariable("fname");
+          </script>
           <script src="https://s3.amazonaws.com/caff/js/formhelpers.min.js"></script>
           <input id="brokerName" type="hidden" value="GTOptions">
           <form id="caffForm" method="post" action="#">
@@ -576,9 +590,21 @@
       
       return html;
     }
-    
+    function getQueryVariable(variable)
+    {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+      for (var i=0;i<vars.length;i++) {
+        var pair = vars[i].split("=");
+        if(pair[0] == variable){return pair[1];}
+      }
+      return(false);
+    }
+    var semail = getQueryVariable("email");
+    var fname = getQueryVariable("fname");
     var exitsplashmessage = '***************************************\n W A I T   B E F O R E   Y O U   G O !\n\n  CLICK *STAY ON THIS PAGE* BUTTON RIGHT NOW\n     TO STAY GET THE EXACT METHOD THAT\n  BANKED ME $35,827.29 IN JUST 24 HOURS!\n\n     >> STAY ON THIS PAGE <<\n\n***************************************';
-    var exitsplashpage = '1spotleft.html';
+
+    var exitsplashpage = "1spotleft.html?email=" + semail + "&fname=" + fname + "";
   </script>
   <script language="javascript" src="exitsplash.html"></script>
 
