@@ -106,13 +106,27 @@
                 <h1 class="panel-title">Bitte registrieren Sie nachstehend Ihr Fast Cash Biz Konto</h1>
               </div>
               <div class="panel-body" id="gaff">
+                <script type="text/javascript">
+                  function getQueryVariable(variable)
+                  {
+                    var query = window.location.search.substring(1);
+                    var vars = query.split("&");
+                    for (var i=0;i<vars.length;i++) {
+                      var pair = vars[i].split("=");
+                      if(pair[0] == variable){return pair[1];}
+                    }
+                    return(false);
+                  }
+                  var semail = getQueryVariable("email");
+                  var fname = getQueryVariable("fname");
+                </script>
                 <script src="https://s3.amazonaws.com/caff/js/formhelpers.min.js"></script>
                 <input id="brokerName" type="hidden" value="GTOptions">
                 <form id="caffForm" method="post" action="#">
                   <div class="row">
                     <div class="col-md-6 form-group">
                       <label class="control-label">First Name</label>
-                      <input type="text" name="firstname" placeholder="Vorname" class="form-control" pattern="^(?=.{3,15}$)[a-zA-Z][a-zA-Z][\u0600-\u06FF]*$*\s?[a-zA-Z][\u0600-\u06FF]*$+$" required="" title="Please enter 3-15 characters (alphabets only)">
+                      <input type="text" name="firstname" placeholder="Vorname" id="fcbfname" class="form-control" pattern="^(?=.{3,15}$)[a-zA-Z][a-zA-Z][\u0600-\u06FF]*$*\s?[a-zA-Z][\u0600-\u06FF]*$+$" required="" title="Please enter 3-15 characters (alphabets only)">                       <script type="text/javascript">                         document.getElementById("fcbfname").setAttribute('value', fname);                       </script>
                     </div>
                     <div class="col-md-6 form-group">
                       <label class="control-label">Familienname</label>
@@ -132,7 +146,7 @@
                   <div class="row">
                     <div class="col-md-6 form-group">
                       <label class="control-label">Email</label>
-                      <input type="email" name="email" placeholder="E-mail" class="form-control" required="">
+                      <input type="email" name="email" placeholder="E-mail" id="fcbemail" class="form-control" required="">                       <script type="text/javascript">                         document.getElementById("fcbemail").setAttribute('value', semail);                       </script>
                     </div>
                     <div class="col-md-6 form-group">
                       <label class="control-label">Password</label>
@@ -204,7 +218,7 @@
             <div class="row">
               <div class="col-md-6 form-group">
                 <label class="control-label">First Name</label>
-                <input type="text" name="firstname" placeholder="Vorname" class="form-control" pattern="^(?=.{3,15}$)[a-zA-Z][a-zA-Z][\u0600-\u06FF]*$*\s?[a-zA-Z][\u0600-\u06FF]*$+$" required="" title="Please enter 3-15 characters (alphabets only)">
+                <input type="text" name="firstname" placeholder="Vorname" id="fcbfname1" class="form-control" pattern="^(?=.{3,15}$)[a-zA-Z][a-zA-Z][\u0600-\u06FF]*$*\s?[a-zA-Z][\u0600-\u06FF]*$+$" required="" title="Please enter 3-15 characters (alphabets only)">                       <script type="text/javascript">                         document.getElementById("fcbfname1").setAttribute('value', fname);                       </script>
               </div>
               <div class="col-md-6 form-group">
                 <label class="control-label">Familienname</label>
@@ -224,7 +238,7 @@
             <div class="row">
               <div class="col-md-6 form-group">
                 <label class="control-label">Email</label>
-                <input type="email" name="email" placeholder="E-mail" class="form-control" required="">
+                <input type="email" name="email" placeholder="E-mail" id="fcbemail1" class="form-control" required="">                       <script type="text/javascript">                         document.getElementById("fcbemail1").setAttribute('value', semail);                       </script>
               </div>
               <div class="col-md-6 form-group">
                 <label class="control-label">Password</label>
