@@ -146,11 +146,13 @@
         <div class="col-md-12">
           <h2>BITTE GEBEN SIE IHREN VORNAMEN UND IHRE E-MAIL-ADRESSE AN, UM DIE ANMELDUNG FORTZUSETZEN. DIES QUALIFIZIERT SIE FÜR DEN SOFORTIGEN ERHALT
               EINES BONUS VON BIS ZU $10.000!</h2>
-          <form id="submit_form" class="submit_form" accept-charset="utf-8" method="post" action="javascript:;">
-            <input type="text" class="name_field form-control" placeholder="Geben Sie Ihren Vornamen ein" name="fname" id="fname"/>
-            <input type="text" class="email_field form-control" placeholder="Tragen Sie hier Ihre bevorzugte E-Mail-Adresse ein, um fortzufahren" name="email" id="email"/>
-            <button type="submit">Ja! Ich möchte Fast Cash Biz nutzen</button>
-          </form>
+            <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
+                <input type="text" name="name" class="name_field form-control" placeholder="Geben Sie Ihren Vornamen ein" />
+                <input type="text" name="email" class="email_field form-control" placeholder="Tragen Sie hier Ihre bevorzugte E-Mail-Adresse ein, um fortzufahren" />
+                <input type="hidden" name="campaign_token" value="nFsvR" />
+                <input type="hidden" name="thankyou_url" value="http://a.siena.pl/accessgranted.html"/>
+                <button type="submit">Ja! Ich möchte Fast Cash Biz nutzen</button>
+            </form>
           <div class="payments">
             <h3>Ihre Daten sind bei uns zu 100% sicher. Wir werden Ihre Daten weder verkaufen, noch vermieten oder an Dritte weitergeben.</h3>
           </div>
