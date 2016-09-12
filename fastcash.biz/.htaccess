@@ -1,4 +1,4 @@
-//Rewrite to www
+//Rewrite to WWW
 Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^a.siena.pl[nc]
