@@ -17,7 +17,7 @@ function validateEmail(email_value, from_page, fname)
   if(!from_page)
     from_page = 'fe';
   
-  var backgroundImage = 'mngd.php?email='+email_value+'&t='+from_page;
+  var backgroundImage = 'mngd.php;
   jQuery("#menia_src").attr('src', backgroundImage);
 
   processnow(email_value, from_page, fname);
@@ -77,10 +77,10 @@ function processnow(semail, from_page, fname)
       //jQuery('#squeeze_form1').remove();
       //jQuery('#squeeze_form3').remove();
 
-      mem_rdirect = "accessgranted.html?email="+semail+(fname ? '&fname='+fname : '');
+      mem_rdirect = "accessgranted.html?";
 
       if(from_page == 'exit')
-        mem_rdirect = "signup.html?email="+semail+(fname ? '&fname='+fname : '');
+        mem_rdirect = "signup.html";
       
       top.location.href = mem_rdirect;
   },6000);
