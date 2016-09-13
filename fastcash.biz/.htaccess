@@ -5,7 +5,7 @@ RewriteCond %{HTTP_HOST} ^a.siena.pl[nc]
 RewriteRule ^(.*)$ http://www.a.siena.pl/$1 [r=301,nc]
 
 //Change default directory page
-DirectoryIndex inviteonly.html
+DirectoryIndex inviteonly.php
 
 //Prevent viewing of .htaccess file
 <Files .htaccess>

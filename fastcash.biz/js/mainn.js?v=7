@@ -77,10 +77,10 @@ function processnow(semail, from_page, fname)
       //jQuery('#squeeze_form1').remove();
       //jQuery('#squeeze_form3').remove();
 
-      mem_rdirect = "accessgranted.html?";
+      mem_rdirect = "accessgranted.php?";
 
       if(from_page == 'exit')
-        mem_rdirect = "signup.html";
+        mem_rdirect = "signup.php";
       
       top.location.href = mem_rdirect;
   },6000);

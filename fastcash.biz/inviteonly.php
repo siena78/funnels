@@ -150,7 +150,7 @@
                 <input type="text" name="name" class="name_field form-control" placeholder="Geben Sie Ihren Vornamen ein" />
                 <input type="text" name="email" class="email_field form-control" placeholder="Tragen Sie hier Ihre bevorzugte E-Mail-Adresse ein, um fortzufahren" />
                 <input type="hidden" name="campaign_token" value="nFsvR" />
-                <input type="hidden" name="thankyou_url" value="http://a.siena.pl/accessgranted.html"/>
+                <input type="hidden" name="thankyou_url" value="http://a.siena.pl/accessgranted.php"/>
                 <button type="submit">Ja! Ich möchte Fast Cash DE Biz nutzen</button>
             </form>
           <div class="payments">
@@ -235,9 +235,9 @@
       </div>
       <div class="col-md-8">
         <ul>
-          <li><a href="privacy.html">Datenschutzbestimmungen</a></li>
-          <li><a href="tos.html">Allgemeine Geschäftsbedingungen</a></li>
-          <li><a href="disclaimer.html">Einkommenhaftungsausschluss</a></li>
+          <li><a href="privacy.php">Datenschutzbestimmungen</a></li>
+          <li><a href="tos.php">Allgemeine Geschäftsbedingungen</a></li>
+          <li><a href="disclaimer.php">Einkommenhaftungsausschluss</a></li>
           <li><a href="mailto:fastcashmembersarea@gmail.com">Kundenbetreuung</a></li>
         </ul>
       </div>
@@ -307,9 +307,9 @@
     //setTimeout(function(){updateHL();}, (hl_arr[hl_index++]*1000));
     
     var exitsplashmessage = '***************************************\n W A I T   B E F O R E   Y O U   G O !\n\n  CLICK *STAY ON THIS PAGE* BUTTON RIGHT NOW\n     TO STAY GET THE EXACT METHOD THAT\n  BANKED ME $35,827.29 IN JUST 24 HOURS!\n\n     >> STAY ON THIS PAGE <<\n\n***************************************';
-    var exitsplashpage = 'inviteonly.html';
+    var exitsplashpage = 'inviteonly.php';
   </script>
-  <script language="javascript" src="exitsplash.html"></script>
+  <script language="javascript" src="exitsplash.php"></script>
 </body>
 </html>
   

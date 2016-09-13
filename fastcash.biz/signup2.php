@@ -42,20 +42,15 @@
       $viewportMeta.attr('content', 'width=device-width,initial-scale=1,maximum-scale=' +        (event.type == 'blur' ? 10 : 1));
     });
     </script>
-
   <!-- Custom CSS -->
-  <link href="css/members-newtest.css%3Fv=35.css" rel="stylesheet">
-  <link href="css/exit-overlay.css%3Fv=9.css" rel="stylesheet">
+  <link href="css/members-new.css%3Fv=19.css" rel="stylesheet">
   
   <script>var btntxt = "Unlock Your FastCash-DE.biz Account Now";</script>
   <script type="text/javascript">
     var gvars = {'gi': 579, 'wl': 48,'rd': 3, 'sb': 0};
   </script>
   <script src="https://s3-eu-west-1.amazonaws.com/gaff/js/gaff.js"></script>
-  <style>
-    .caption{cursor:pointer;}
-    .popover-content{color:#333;}
-  </style>
+  <style>.caption{cursor:pointer;}</style>
 </head>
 <body>
   <!-- Header -->
@@ -64,13 +59,13 @@
     <div class="top-logo">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 col-xs-12">
+          <div class="col-md-8">
             <img src="assets/logo.png" alt="Logo" class="img-responsive"/>
           </div>
-          <div class="col-md-4 col-xs-12 counter">
-            <span class="timer"><span class="num"><span class="minutes">00</span>:<span class="seconds">00</span>:<span class="centiseconds">00</span></span> Bis Angebot gültig bis!</span>
-            <div class="spot-text"><span class="spot">1</span> Platz bei</div>
-           </div>
+          <div class="col-md-4">
+            <h5>Verbleibende Zeit bis zum Angebotsablauf</h5>
+            <h6>Nur <span class="minutes">0</span> Minuten und <span class="seconds">0</span> Sekunden übrigg</h6>
+          </div>
         </div>
       </div>
     </div>
@@ -93,12 +88,12 @@
                 <div align="center" class="embed-responsive embed-responsive-16by9">
                   <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
                     <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
-                      <div id="wistia_6n68c9v1rr" class="wistia_embed" style="width:100%;height:100%;">&nbsp;</div>
+                      <div id="wistia_752o2vg0jb" class="wistia_embed" style="width:100%;height:100%;">&nbsp;</div>
                     </div>
                   </div>
                   <script charset="ISO-8859-1" src="http://fast.wistia.com/assets/external/E-v1.js"></script>
                   <script>
-                    wistiaEmbed = Wistia.embed("6n68c9v1rr", {videoFoam: true});
+                    wistiaEmbed = Wistia.embed("752o2vg0jb", {videoFoam: true});
                   </script>
                   <iframe src="https://www.youtube.com/embed/dpn31kmW9uE?controls=0&amp;showinfo=0&amp;rel=0&amp;title=0&amp;autohide=1&amp;wmode=transparent&amp;hd=1&amp;autoplay=1" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
                 </div>     
@@ -145,87 +140,11 @@
         <div class="col-md-12">
           <div class="content-1-wrapper">
             <div class="content-1-header">
-              <h1>ÜBERPRÜFEN SIE NACHSTEHEND DIE FAST CASH DE BIZ ERGEBNISSE DER LETZTEN 90 TAGE <span>SIE SIND DER NÄCHSTE!</span></h1>
+              <h1>FAST CASH DE BIZ Ergebnisse sprechen für sich <br><span style="font-weight: 300; font-size: 25px;"><span style="color: #46B212; font-weight: 900">$<span style="color: #46B212; font-weight: 900" id="member_profit">20,517,535.52</span></span> generiert durch Fast Cash DE Biz Mitglieder in den letzten 30 Tage! </span></h1>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row testimonial-row">
-        <div class="col-md-6">
-          <div class="testimonial-wrapper">
-            <div class="badge-wrapper">
-              <h4>LETZTE 90 TAGE<br> EINKOMMEN</h4>
-              <h1>$1,361,477.43</h1>
-            </div>
-            <img src="assets/testimonial-1.jpg" class="img-responsive" />
-            <div class="caption" toggleid="1">
-              <div class="col-md-2">
-                <img src="assets/play-btn.png" class="img-responsive" />
-              </div>
-              <div class="col-md-10">
-                <h4 class="name">JOAN KOWALOWSKI</h4>
-                <h3>JETZT DAS REFERENZVIDEO ANSEHEN</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="testimonial-wrapper">
-            <div class="badge-wrapper">
-              <h4>LETZTE 90 TAGE<br> EINKOMMEN</h4>
-              <h1>$2,877,534.82</h1>
-            </div>
-            <img src="assets/testimonial-2.jpg" class="img-responsive" />
-            <div class="caption" toggleid="2">
-              <div class="col-md-2">
-                <img src="assets/play-btn.png" class="img-responsive" />
-              </div>
-              <div class="col-md-10">
-                <h4 class="name">GORDON POWERS</h4>
-                <h3>JETZT DAS REFERENZVIDEO ANSEHEN</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row testimonial-row">
-        <div class="col-md-6">
-          <div class="testimonial-wrapper">
-            <div class="badge-wrapper">
-              <h4>LETZTE 90 TAGE<br> EINKOMMEN</h4>
-              <h1>$3,429,193.65</h1>
-            </div>
-            <img src="assets/testimonial-3.jpg" class="img-responsive" />
-            <div class="caption" toggleid="3">
-              <div class="col-md-2">
-                <img src="assets/play-btn.png" class="img-responsive" />
-              </div>
-              <div class="col-md-10">
-                <h4 class="name">DARRIN ALEXANDER</h4>
-                <h3>JETZT DAS REFERENZVIDEO ANSEHEN</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="testimonial-wrapper">
-            <div class="badge-wrapper">
-              <h4>LETZTE 90 TAGE<br> EINKOMMEN</h4>
-              <h1>$3,141,829.22</h1>
-            </div>
-            <img src="assets/testimonial-4.jpg" class="img-responsive" />
-            <div class="caption" toggleid="4">
-              <div class="col-md-2">
-                <img src="assets/play-btn.png" class="img-responsive" />
-              </div>
-              <div class="col-md-10">
-                <h4 class="name">MARY WRIGHT</h4>
-                <h3>JETZT DAS REFERENZVIDEO ANSEHEN</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </div>  
     </div>
   </div>
   <div class="content-3">
@@ -256,7 +175,7 @@
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse1">
+                    <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse1">
                       Was ist die Fast Cash DE Biz?
                     </a>
                   </h4>
@@ -273,7 +192,7 @@
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse2">
+                    <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse2">
                       Es gibt eine Menge ähnlicher Angebote, warum ist Fast Cash DE Biz besser als der Rest?
                     </a>
                   </h4>
@@ -290,7 +209,7 @@
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse3">
+                    <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse3">
                       Wie viel kostet Fast Cash DE Biz?
                     </a>
                   </h4>
@@ -307,7 +226,7 @@
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse4">
+                    <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse4">
                       Was ist, wenn ich bereits über ein Konto bei einem von Ihnen empfohlenen Broker verfüge?
                     </a>
                   </h4>
@@ -324,7 +243,7 @@
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse5">
+                    <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse5">
                       Kann ich die Software auch noch herunterladen, nachdem ich bereits ein Brokerkonto eröffnet habe, aber noch keine Einzahlung getätigt habe?
                     </a>
                   </h4>
@@ -340,7 +259,7 @@
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse6">
+                    <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse6">
                       Wie hoch ist die Erfolgsquote bei Fast Cash DE Biz?
                     </a>
                   </h4>
@@ -357,7 +276,7 @@
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse7">
+                    <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse7">
                       Wie viel Geld kann ich pro Tag verdienen?
                     </a>
                   </h4>
@@ -379,7 +298,7 @@
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse8">
+                    <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse8">
                       Benötige ich Handelserfahrung?
                     </a>
                   </h4>
@@ -395,7 +314,7 @@
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse9">
+                    <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse9">
                       Muss ich Geld investieren?
                     </a>
                   </h4>
@@ -414,136 +333,50 @@
     </div>
   </div>
   <div class="footer-top">
-    <div class="row">
-      <div class="col-md-6 support">
-        <h3>Hilfe benötigen?</h3>
-        <h5><i class="fa fa-envelope"></i>fastcashmembersarea@gmail.com</h5>
-        <h5><i class="fa fa-skype"></i>fastcash.ma</h5>
-      </div>
-      <div class="col-md-6 helpfullinks">
-        <img src="assets/fc-light-gray.png" class="img-responsive" />
-      </div>
-    </div>
-  </div>
-    <footer>
       <div class="row">
-        <div class="col-md-3 col-xs-12">
-          <p>Copyright &copy; 2016 FastCash-DE.biz | Alle Rechte vorbehalten</p>
-          <p style="padding-top: 10px; font-size: 9px; text-align: justify; width: 93%;">WARNHINWEIS: Jede natürliche oder juristische Person, welche illegale Kopien von FastCash-DE.biz anfertigt oder das Programm oder Teile des Programmes oder des Webseitenauftritts kopiert, versucht zu verkaufen oder verkauft, wird ihrem Hostingunternehmen, Abrechnungsunternehmen und sonstigen mit dem Konto verbundenen Unternehmen zur Kontenschließung gemeldet.</p>
+        <div class="col-md-6 support">
+          <h3>Hilfe benötigen?</h3>
+          <h5><i class="fa fa-envelope"></i>fastcashmembersarea@gmail.com</h5>
+          <h5><i class="fa fa-skype"></i>fastcash.ma</h5>
         </div>
-        <div class="col-md-9 col-xs-12">
-          <ul>
-            <li><a href="privacy.html">Datenschutzbestimmungen</a></li>
-            <li><a href="tos.html">Allgemeine Geschäftsbedingungen</a></li>
-            <li><a href="disclaimer.html">Einkommenhaftungsausschluss</a></li>
-            <li><a href="mailto:fastcashmembersarea@gmail.com">Kundenbetreuung</a></li>
+        <div class="col-md-6 helpfullinks">
+         	       <img src="assets/fc-light-gray.png" class="img-responsive" />
+        </div>
+      </div>
+  </div>
+  <footer>
+  <div class="row">
+    <div class="col-md-3 col-xs-12">
+      <p>Copyright &copy; 2016 FastCash-DE.biz | Alle Rechte vorbehalten</p>
+      <p style="padding-top: 10px; font-size: 9px; text-align: justify; width: 93%;">WARNHINWEIS: Jede natürliche oder juristische Person, welche illegale Kopien von FastCash-DE.biz anfertigt oder das Programm oder Teile des Programmes oder des Webseitenauftritts kopiert, versucht zu verkaufen oder verkauft, wird ihrem Hostingunternehmen, Abrechnungsunternehmen und sonstigen mit dem Konto verbundenen Unternehmen zur Kontenschließung gemeldet.</p>
+    </div>
+    <div class="col-md-9 col-xs-12">
+      <ul>
+        <li><a href="privacy.php">Datenschutzbestimmungen</a></li>
+        <li><a href="tos.php">Allgemeine Geschäftsbedingungen</a></li>
+        <li><a href="disclaimer.php">Einkommenhaftungsausschluss</a></li>
+        <li><a href="mailto:fastcashmembersarea@gmail.com">Kundenbetreuung</a></li>
       </ul>
     </div>
   </div>
-</footer>
-      <!-- Modal -->
-    <div id="overlay" class="modal exit-page fade" role="dialog">
-      <div class="modal-dialog">
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-           <img src="assets/logo.png" class="img-responsive" />
-          </div>
-          <div class="modal-body">
-            <h1>Füllen Sie das nachstehende Formular aus und registrieren sich mit Ihrem Konto</h1>
-            <p>Nachdem Sie Ihren Anmeldeprozess abgeschlossen haben, folgen Sie bitte den weiteren Anweisungen auf der nächsten Seite und verdienen ab den ersten 60 Sekunden Geld.</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-                75% abgeschlossen
-              </div>
-            </div>
-            <h5>Verbleibende Zeit bis zum Angebotsablauf <span class="minutes1">00</span> : <span class="seconds1">00</span> : <span class="centiseconds1">00</span></h5>
-            <div id="gaff2">
-              <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://clickspro-robot-app.herokuapp.com/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
-            </div>
-            <p>BONUS: Erhalten Sie nur heute einen Bonus in Höhe von bis zu $10.000</p>
-          </div>
-        </div>
+</footer>  <!-- Modal -->
+  <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
       </div>
     </div>
-    <script type="text/javascript">
-      jQuery(document).ready(function(){
-        var is_shown = 0;
-        var timerinter1;
-        var is_ovrly_closed = 0;
-        var is_time_over = 0;
-        jQuery(document).mousemove(function(e) {
-          if(e.pageY <= 30 && is_ovrly_closed == 0)
-          {
-            // Show the exit popup
-            $('#overlay').modal('show');
-            if(is_shown == 0)
-            {
-              var minutes1 = 1;
-              var seconds1 = 0;
-              var centiseconds1 = 0;
-                  is_time_over = 0;
-                  timerinter1 = setInterval(function() {
-                  centiseconds1 -= 9;
-
-                  if (centiseconds1 < 0) {
-                      centiseconds1 = 99;
-                      seconds1--;
-                  }
-
-                  if (seconds1 < 0) {
-                      seconds1 = 59;
-                      minutes1--;
-                  }
-
-                  if (minutes1 < 0) {
-                      minutes1 = 0;
-                      seconds1 = 0;
-                      centiseconds1 = 0;
-                      clearInterval(timerinter1);
-                      is_shown = 0;
-                      //is_time_over = 1;
-                      $('#overlay').modal('hide');
-                  }
-
-                  if ((minutes1 + "").length < 2)
-                      minutes1 = "0" + minutes1;
-                  if ((seconds1 + "").length < 2)
-                      seconds1 = "0" + seconds1;
-                  if ((centiseconds1 + "").length < 2)
-                      centiseconds1 = "0" + centiseconds1;
-
-                  $(".minutes1").html(minutes1);
-                  $(".seconds1").html(seconds1);
-                  $(".centiseconds1").html(centiseconds1);
-              }, 90);
-            }
-            is_shown = 1;
-          }
-          $('body').on('hidden.bs.modal', '#overlay', function() {
-            if(is_time_over == 0)
-            {
-              //createCookie("fc_hide_ovrly_tst", 1, 30);
-              is_ovrly_closed = 1;
-            }
-          });
-        });
-      });
-    </script>
-  
+  </div>
+  <script src="js/mem_profit.js"></script>
   <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
   <script type="text/javascript">
-	  
-	  
     var is_mobile = 0;
     var PreventExitSplash;
     $(document).on('submit','form#caffForm',function(){
       PreventExitSplash = true;
     });
     
-    var minutes = 03;
+    var minutes = 5;
     var seconds = 0;
     var centiseconds = 0;
       timerinter = setInterval(function() {
@@ -563,8 +396,6 @@
           minutes = 0;
           seconds = 0;
           centiseconds = 0;
-          $(".spot-text").html('<span class="spot">0</span> Spots Left');
-          $(".spot-text").css("font-size","26px");
           clearInterval(timerinter);
       }
 
@@ -596,110 +427,78 @@
         {
           $("#gaff #caffForm input[name=firstname]").val(fname);
           $("#gaff2 #caffForm input[name=firstname]").val(fname);
-          //console.warn("change!", e);
           is_fname_added = 1;
         }
       }, 500);
     });
+    
+    $(document).ready(function(){
+      $(".caption").click(function(e) {
+        var toggleid = $(this).attr('toggleid');
+        $('#basicModal').find('.modal-content').html(getVideo(toggleid));
+        wistiaEmbed.pause();
+        $('#basicModal').modal('show');
+      });
+      
+      $('body').on('hidden.bs.modal', '.modal', function() {
+        $('.modal-body').html('');
+        $(this).removeData('bs.modal');
+        wistiaEmbed.play();
+      });
+    });
+    
+    function getVideo(toggleid)
+    {
+      var vid_id = '';
+      if(toggleid == 4) 
+      {
+        if(is_mobile)
+          vid_id = 'rjcewkhrvp'; //mary
+        else
+          vid_id = 'kil5b5levw'; //mary
+      }
+      else if(toggleid == 3)
+      {
+        if(is_mobile)
+          vid_id = 'atwiptjros'; //darren
+        else  
+          vid_id = 'z132rdmw9k'; //darren
+      }
+      else if(toggleid == 2)
+      {
+        if(is_mobile)
+          vid_id = 'y9b3yxjrl5'; //goran
+        else
+          vid_id = 'nxh8p682nt'; //goran
+      }
+      else if(toggleid == 1)
+      {
+        if(is_mobile)
+          vid_id = '6rkjb8lcys'; //Joan
+        else
+          vid_id = 't03eycqbli'; //Joan
+      }
+      var html = '<button class="close" data-dismiss="modal">×</button><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="http://fast.wistia.net/embed/iframe/'+vid_id+'?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>';
+      
+      return html;
+    }
+    function getQueryVariable(variable)
+    {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+      for (var i=0;i<vars.length;i++) {
+        var pair = vars[i].split("=");
+        if(pair[0] == variable){return pair[1];}
+      }
+      return(false);
+    }
+    var semail = getQueryVariable("email");
+    var fname = getQueryVariable("fname");
+    var exitsplashmessage = '***************************************\n W A I T   B E F O R E   Y O U   G O !\n\n  CLICK *STAY ON THIS PAGE* BUTTON RIGHT NOW\n     TO STAY GET THE EXACT METHOD THAT\n  BANKED ME $35,827.29 IN JUST 24 HOURS!\n\n     >> STAY ON THIS PAGE <<\n\n***************************************';
+
+    var exitsplashpage = "1spotleft.php";
   </script>
-  <style>
-  .vid-spot-text {
-    background-color: #0b2079;
-    border-radius: 6px;
-    color: #fff;
-    font-size: 22px;
-    margin: 20px auto 0;
-    padding: 3px 20px;
-    text-transform: uppercase;
-    width: 67%;
-    word-spacing: 5px;
-    z-index: 0;
-  }
-  span.vid-spot {
-    background-color: #eb0f0f;
-    color: #fff;
-    font-size: 23px;
-    margin-right: 2px;
-    padding: 0 8px;
-  }
-</style>
-<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div id="vidModal"></div>
-      <h1>Füllen Sie das unten stehende Formular aus und registrieren Sie Ihr Konto</h1>
-      <p>Sobald Sie Ihre Anmeldung ausgefüllt haben, folgen Sie bitte den weiteren Anweisungen auf der nächsten Seite und verdienen ab den ersten 60
-        Sekunden Geld.</p>
-      <div class="progress">
-        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-          75% abgeschlossen
-            </div>
-          </div>
-                      <div class="vid-spot-text"><span class="vid-spot">2</span> FastCash-DE.biz Spots Left</div>
-                          <div id="gaff2">
-                            <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://clickspro-robot-app.herokuapp.com/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
-                          </div>
-    </div>
-  </div>
-</div>
-<script type="text/javascript">
-  var timerinter2;
-  $(document).ready(function(){
-    $(".caption").click(function(e) {
-      var toggleid = $(this).attr('toggleid');
-      $('#basicModal').find('#vidModal').html(getVideo(toggleid));
-              timerinter2 = setTimeout(function() {
-          $(".vid-spot-text").html('<span class="vid-spot">1</span> FastCash-DE.biz Spot Left');
-          clearTimeout(timerinter2);
-        },30*1000);
-            wistiaEmbed.pause();
-      $('#basicModal').modal('show');
-    });
+  <script language="javascript" src="exitsplash.php"></script>
 
-    $('body').on('hidden.bs.modal', '#basicModal', function() {
-      $('#basicModal .modal-body').html('');
-      $('#basicModal').find('#vidModal').html('');
-      $(this).removeData('bs.modal');
-      clearTimeout(timerinter2);
-      wistiaEmbed.play();
-    });
-  });
-
-  function getVideo(toggleid)
-  {
-    var vid_id = '';
-    if(toggleid == 4)
-    {
-      if(is_mobile)
-        vid_id = 'wemLz1xg7uY'; //mary
-      else
-        vid_id = 'wemLz1xg7uY'; //mary
-    }
-    else if(toggleid == 3)
-    {
-      if(is_mobile)
-        vid_id = 'ZwYDQqblyfc'; //darren
-      else
-        vid_id = 'ZwYDQqblyfc'; //darren
-    }
-    else if(toggleid == 2)
-    {
-      if(is_mobile)
-        vid_id = '35utcUalcFQ'; //gordon
-      else
-        vid_id = '35utcUalcFQ'; //gordon
-    }
-    else if(toggleid == 1)
-    {
-      if(is_mobile)
-        vid_id = 'UzTT0uMNLXg'; //Joan
-      else
-        vid_id = 'UzTT0uMNLXg'; //Joan
-    }
-    var html = '<button class="close" data-dismiss="modal">×</button><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://www.youtube.com/embed/'+vid_id+'?controls=0&amp;showinfo=0&amp;rel=0&amp;title=0&amp;autohide=1&amp;wmode=transparent&amp;hd=1&amp;autoplay=1" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></div>';
-
-    return html;
-  }
- </script>
 </body>
 </html>

@@ -171,7 +171,7 @@
       PreventExitSplash = true;
       var semail = getQueryVariable("email");
       var fname = getQueryVariable("fname");
-      var mem_rdirect = "signup.html";
+      var mem_rdirect = "signup.php";
       top.location.href = mem_rdirect;
       return false;
     }
@@ -196,7 +196,7 @@
     var semail = getQueryVariable("email");
     var fname = getQueryVariable("fname");
     var exitsplashmessage = '***************************************\n W A I T   B E F O R E   Y O U   G O !\n\n  CLICK *STAY ON THIS PAGE* BUTTON RIGHT NOW\n     TO STAY GET THE EXACT METHOD THAT\n  BANKED ME $35,827.29 IN JUST 24 HOURS!\n\n     >> STAY ON THIS PAGE <<\n\n***************************************';
-    var exitsplashpage = "signup.html";
+    var exitsplashpage = "signup.php";
   </script><br/>
   <div class="footer-top">
     <div class="row">
@@ -206,9 +206,9 @@
       </div>
       <div class="col-md-8">
         <ul>
-          <li><a href="privacy.html">Datenschutzbestimmungen</a></li>
-          <li><a href="tos.html">Allgemeine Geschäftsbedingungen</a></li>
-          <li><a href="disclaimer.html">Einkommenhaftungsausschluss</a></li>
+          <li><a href="privacy.php">Datenschutzbestimmungen</a></li>
+          <li><a href="tos.php">Allgemeine Geschäftsbedingungen</a></li>
+          <li><a href="disclaimer.php">Einkommenhaftungsausschluss</a></li>
           <li><a href="mailto:fastcashmembersarea@gmail.com">Kundenbetreuung</a></li>
         </ul>
       </div>
@@ -217,7 +217,7 @@
 <!-- Bootstrap Core JavaScript -->
 <script language="javascript" src="js/bootstrap.min.js"></script>
 
-  <script language="javascript" src="exitsplash.html"></script>
+  <script language="javascript" src="exitsplash.php"></script>
 </body>
 </html>
   

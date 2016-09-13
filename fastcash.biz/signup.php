@@ -269,7 +269,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse1">
+          <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse1">
             Was ist die Fast Cash DE Biz?
           </a>
         </h4>
@@ -286,7 +286,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse2">
+          <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse2">
             Es gibt eine Menge ähnlicher Angebote, warum ist Fast Cash DE Biz besser als der Rest?
           </a>
         </h4>
@@ -303,7 +303,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse3">
+          <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse3">
             Wie viel kostet Fast Cash DE Biz?
           </a>
         </h4>
@@ -320,7 +320,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse4">
+          <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse4">
             Was ist, wenn ich bereits über ein Konto bei einem von Ihnen empfohlenen Broker verfüge?
           </a>
         </h4>
@@ -337,7 +337,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse5">
+          <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse5">
             Kann ich die Software auch noch herunterladen, nachdem ich bereits ein Brokerkonto eröffnet habe, aber noch keine Einzahlung getätigt habe?
           </a>
         </h4>
@@ -353,7 +353,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse6">
+          <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse6">
             Wie hoch ist die Erfolgsquote bei Fast Cash DE Biz?
           </a>
         </h4>
@@ -370,7 +370,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse7">
+          <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse7">
             Wie viel Geld kann ich pro Tag verdienen?
           </a>
         </h4>
@@ -392,7 +392,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse8">
+          <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse8">
             Benötige ich Handelserfahrung?
           </a>
         </h4>
@@ -408,7 +408,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="signup.html#collapse9">
+          <a data-toggle="collapse" data-parent="#accordion" href="signup.php#collapse9">
             Muss ich Geld investieren?
           </a>
         </h4>
@@ -447,9 +447,9 @@
     </div>
     <div class="col-md-9 col-xs-12">
       <ul>
-        <li><a href="privacy.html">Datenschutzbestimmungen</a></li>
-        <li><a href="tos.html">Allgemeine Geschäftsbedingungen</a></li>
-        <li><a href="disclaimer.html">Einkommenhaftungsausschluss</a></li>
+        <li><a href="privacy.php">Datenschutzbestimmungen</a></li>
+        <li><a href="tos.php">Allgemeine Geschäftsbedingungen</a></li>
+        <li><a href="disclaimer.php">Einkommenhaftungsausschluss</a></li>
         <li><a href="mailto:fastcashmembersarea@gmail.com">Kundenbetreuung</a></li>
       </ul>
     </div>
@@ -627,7 +627,7 @@
     var semail = getQueryVariable("email");
     var fname = getQueryVariable("fname");
     var exitsplashmessage = '***************************************\n W A I T   B E F O R E   Y O U   G O !\n\n  CLICK *STAY ON THIS PAGE* BUTTON RIGHT NOW\n     TO STAY GET THE EXACT METHOD THAT\n  BANKED ME $35,827.29 IN JUST 24 HOURS!\n\n     >> STAY ON THIS PAGE <<\n\n***************************************';
-    var exitsplashpage = "signup2.html";
+    var exitsplashpage = "signup2.php";
   </script>
   <style>
   .vid-spot-text {
