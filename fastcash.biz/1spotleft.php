@@ -111,7 +111,7 @@
                 <h1 class="panel-title">Bitte registrieren Sie nachstehend Ihr Fast Cash DE Biz Konto</h1>
               </div>
               <div class="panel-body" id="gaff">
-                <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://clickspro-robot-app.herokuapp.com/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
+                <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://robot.fastcash-de.biz/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
               </div>
             </div>
           </div>
@@ -239,7 +239,7 @@
       <div class="row">
         <div class="col-md-2" id="gaff2"></div>
         <div class="col-md-8" id="gaff2">
-          <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://clickspro-robot-app.herokuapp.com/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
+          <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://robot.fastcash-de.biz/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
         </div>
         <div class="col-md-2" id="gaff2"></div>
       </div>
@@ -460,7 +460,7 @@
             </div>
             <h5>Verbleibende Zeit bis zum Angebotsablauf <span class="minutes1">00</span> : <span class="seconds1">00</span> : <span class="centiseconds1">00</span></h5>
             <div id="gaff2">
-              <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://clickspro-robot-app.herokuapp.com/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
+              <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://robot.fastcash-de.biz/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
             </div>
             <p>BONUS: Erhalten Sie nur heute einen Bonus in Höhe von bis zu $10.000</p>
           </div>
@@ -637,7 +637,7 @@
           </div>
                       <div class="vid-spot-text"><span class="vid-spot">2</span> FastCash-DE.biz Spots Left</div>
                           <div id="gaff2">
-                            <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://clickspro-robot-app.herokuapp.com/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
+                            <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://robot.fastcash-de.biz/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
                           </div>
     </div>
   </div>

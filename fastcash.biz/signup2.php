@@ -106,7 +106,7 @@
                 <h1 class="panel-title">Bitte registrieren Sie nachstehend Ihr Fast Cash DE Biz Konto</h1>
               </div>
               <div class="panel-body" id="gaff">
-                <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://clickspro-robot-app.herokuapp.com/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
+                <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://robot.fastcash-de.biz/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
               </div>
             </div>
           </div>
@@ -158,7 +158,7 @@
       <div class="row">
         <div class="col-md-2" id="gaff2"></div>
         <div class="col-md-8" id="gaff2">
-          <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://clickspro-robot-app.herokuapp.com/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
+          <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://robot.fastcash-de.biz/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
         </div>
         <div class="col-md-2" id="gaff2"></div>
       </div>
