@@ -147,8 +147,9 @@
           <h2>BITTE GEBEN SIE IHREN VORNAMEN UND IHRE E-MAIL-ADRESSE AN, UM DIE ANMELDUNG FORTZUSETZEN. DIES QUALIFIZIERT SIE FÜR DEN SOFORTIGEN ERHALT
               EINES BONUS VON BIS ZU $10.000!</h2>
             <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
-                <input type="text" name="name" class="name_field form-control" placeholder="Geben Sie Ihren Vornamen ein" />
-                <input type="text" name="email" class="email_field form-control" placeholder="Tragen Sie hier Ihre bevorzugte E-Mail-Adresse ein, um fortzufahren" />
+                <input type="text" name="name" class="name_field form-control" placeholder="Geben Sie Ihren Vornamen ein" required />
+                <input type="text" name="email" class="email_field form-control" placeholder="Tragen Sie hier Ihre bevorzugte E-Mail-Adresse ein, um
+                fortzufahren" required />
                 <input type="hidden" name="campaign_token" value="nFsvR" />
                 <input type="hidden" name="thankyou_url" value="http://a.siena.pl/accessgranted.php"/>
                 <button type="submit">Ja! Ich möchte Fast Cash DE Biz nutzen</button>
