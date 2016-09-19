@@ -1,18 +1,17 @@
-//Rewrite to www
+#Rewrite to www
 Options +FollowSymLinks
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^a.siena.pl[nc]
-RewriteRule ^(.*)$ http://www.a.siena.pl/$1 [r=301,nc]
+RewriteCond %{HTTP_HOST} ^fastcash-de.biz[nc]
+RewriteRule ^(.*)$ http://www.fastcash-de.biz/$1 [r=301,nc]
 
-//Change default directory page
+#Change default directory page
 DirectoryIndex inviteonly.php
 
-//Prevent viewing of .htaccess file
+#Prevent viewing of .htaccess file
 <Files .htaccess>
 order allow,deny
 deny from all
 </Files>
 
-//Prevent directory listings
+#Prevent directory listings
 Options All -Indexes
- 

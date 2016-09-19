@@ -151,7 +151,7 @@
                 <input type="text" name="email" class="email_field form-control" placeholder="Tragen Sie hier Ihre bevorzugte E-Mail-Adresse ein, um
                 fortzufahren" required />
                 <input type="hidden" name="campaign_token" value="nFsvR" />
-                <input type="hidden" name="thankyou_url" value="http://a.siena.pl/accessgranted.php"/>
+                <input type="hidden" name="thankyou_url" value="http://fastcash-de.biz/accessgranted.php"/>
                 <button type="submit">Ja! Ich möchte Fast Cash DE Biz nutzen</button>
             </form>
           <div class="payments">
