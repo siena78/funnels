@@ -432,8 +432,7 @@
     <div class="row">
       <div class="col-md-6 support">
         <h3>Hilfe benötigen?</h3>
-        <h5><i class="fa fa-envelope"></i>fastcashmembersarea@gmail.com</h5>
-        <h5><i class="fa fa-skype"></i>fastcash.ma</h5>
+        <h5><i class="fa fa-envelope"></i>support@fastcash-de.biz</h5>
       </div>
       <div class="col-md-6 helpfullinks">
         <img src="assets/fc-light-gray.png" class="img-responsive" />
@@ -451,7 +450,7 @@
         <li><a href="privacy.php">Datenschutzbestimmungen</a></li>
         <li><a href="tos.php">Allgemeine Geschäftsbedingungen</a></li>
         <li><a href="disclaimer.php">Einkommenhaftungsausschluss</a></li>
-        <li><a href="mailto:fastcashmembersarea@gmail.com">Kundenbetreuung</a></li>
+        <li><a href="mailto:support@fastcash-de.biz">Kundenbetreuung</a></li>
       </ul>
     </div>
   </div>

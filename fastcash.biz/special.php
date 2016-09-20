@@ -267,7 +267,7 @@
           <li><a href="privacy.php">Datenschutzbestimmungen</a></li>
           <li><a href="tos.php">Allgemeine Geschäftsbedingungen</a></li>
           <li><a href="disclaimer.php">Einkommenhaftungsausschluss</a></li>
-          <li><a href="mailto:fastcashmembersarea@gmail.com">Kundenbetreuung</a></li>
+          <li><a href="mailto:support@fastcash-de.biz">Kundenbetreuung</a></li>
         </ul>
       </div>
     </div>
