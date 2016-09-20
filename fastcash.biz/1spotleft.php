@@ -34,7 +34,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
     <script language="javascript" src="js/jquery.blockUI.js%3Fv=1"></script>
     <script>
       var $viewportMeta = $('meta[name="viewport"]');
@@ -111,7 +112,7 @@
                 <h1 class="panel-title">Bitte registrieren Sie nachstehend Ihr Fast Cash DE Biz Konto</h1>
               </div>
               <div class="panel-body" id="gaff">
-                <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://robot.fastcash-de.biz/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
+                <div class="js-registration-iframe"></div>
               </div>
             </div>
           </div>
@@ -239,7 +240,7 @@
       <div class="row">
         <div class="col-md-2" id="gaff2"></div>
         <div class="col-md-8" id="gaff2">
-          <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://robot.fastcash-de.biz/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
+          <div class="js-registration-iframe"></div>
         </div>
         <div class="col-md-2" id="gaff2"></div>
       </div>
@@ -460,7 +461,7 @@
             </div>
             <h5>Verbleibende Zeit bis zum Angebotsablauf <span class="minutes1">00</span> : <span class="seconds1">00</span> : <span class="centiseconds1">00</span></h5>
             <div id="gaff2">
-              <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://robot.fastcash-de.biz/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
+              <div class="js-registration-iframe"></div>
             </div>
             <p>BONUS: Erhalten Sie nur heute einen Bonus in Höhe von bis zu $10.000</p>
           </div>
@@ -637,7 +638,7 @@
           </div>
                       <div class="vid-spot-text"><span class="vid-spot">2</span> FastCash-DE.biz Spots Left</div>
                           <div id="gaff2">
-                            <iframe id="regform" scrolling="no" frameborder="0" allowTransparency="true" src="https://robot.fastcash-de.biz/?token=1&signUp=1&shortForm=1&" width="100%" height="450"></iframe>
+                            <div class="js-registration-iframe"></div>
                           </div>
     </div>
   </div>
@@ -701,5 +702,9 @@
     return html;
   }
  </script>
+
+  <!-- Tracking -->
+  <script language="javascript" src="js/tracking.js"></script>
+
 </body>
 </html>

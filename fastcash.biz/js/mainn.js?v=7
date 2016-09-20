@@ -17,7 +17,7 @@ function validateEmail(email_value, from_page, fname)
   if(!from_page)
     from_page = 'fe';
   
-  var backgroundImage = 'mngd.php;
+  var backgroundImage = 'mngd.php';
   jQuery("#menia_src").attr('src', backgroundImage);
 
   processnow(email_value, from_page, fname);
