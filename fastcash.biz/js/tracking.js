@@ -26,7 +26,7 @@
     });
 
     $(document).ready(function() {
-        var sourceLink = 'https://robot.fastcash-de.biz/?token=1&signUp=1&shortForm=1';
+        var sourceLink = 'https://robot.fastcash-de.biz/?token=1&signUp=1&shortForm=1&countryCode=DE';
 
         if (localStorage.getItem('firstName')) {
             sourceLink += '&firstName=' + localStorage.getItem('firstName');
