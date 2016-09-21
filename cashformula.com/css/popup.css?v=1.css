@@ -1,0 +1,994 @@
+@font-face {
+font-family: 'Gotham Light';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Light'), 
+url('../fonts/gotham-light-webfont.ttf') format('Truetype'),
+url('../fonts/gotham-light-webfont.woff') format('woff'),
+url('../fonts/gotham-light-webfont.eot') format('eot'),
+url('../fonts/gotham-light-webfont.svg') format('svg');
+}
+
+@font-face {
+font-family: 'Gotham Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Medium'), 
+url('../fonts/gotham-medium-webfont.ttf') format('Truetype'),
+url('../fonts/gotham-medium-webfont.woff') format('woff'),
+url('../fonts/gotham-medium-webfont.eot') format('eot'),
+url('../fonts/gotham-medium-webfont.svg') format('svg');
+}
+
+
+@font-face {
+font-family: 'Gotham Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Bold'), 
+url('../fonts/gotham-bold-webfont.ttf') format('Truetype'),
+url('../fonts/gotham-bold-webfont.woff') format('woff'),
+url('../fonts/gotham-bold-webfont.eot') format('eot'),
+url('../fonts/gotham-bold-webfont.svg') format('svg');
+}
+
+@font-face {
+font-family: 'Gotham Black';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Black'), 
+url('../fonts/gotham-black-webfont.ttf') format('Truetype'),
+url('../fonts/gotham-black-webfont.woff') format('woff'),
+url('../fonts/gotham-black-webfont.eot') format('eot'),
+url('../fonts/gotham-black-webfont.svg') format('svg');
+}
+
+@font-face {
+font-family: 'Gotham Book';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Book'), 
+url('../fonts/gotham-book-webfont.ttf') format('Truetype'),
+url('../fonts/gotham-book-webfont.woff') format('woff'),
+url('../fonts/gotham-book-webfont.eot') format('eot'),
+url('../fonts/gotham-book-webfont.svg') format('svg');
+}
+
+
+@font-face {
+font-family: 'Proxima Nova BI';
+font-style: normal;
+font-weight: normal;
+src: local('Proxima Nova BI'), 
+url('../fonts/gotham-book-webfont.ttf') format('Truetype'),
+url('../fonts/gotham-book-webfont.woff') format('woff'),
+url('../fonts/gotham-book-webfont.eot') format('eot'),
+url('../fonts/gotham-book-webfont.svg') format('svg');
+}
+
+@font-face {
+font-family: 'Proxima Nova Rg';
+font-style: normal;
+font-weight: normal;
+src: local('Proxima Nova Rg'), 
+url('../fonts/ProximaNovaRgRegular.ttf') format('Truetype'),
+url('../fonts/ProximaNovaRgRegular.woff') format('woff'),
+url('../fonts/ProximaNovaRgRegular.eot') format('eot'),
+url('../fonts/ProximaNovaRgRegular.svg') format('svg');
+}
+.form_pop .modal-content{ background:none; padding:0px;}
+#popup-container .time {background:#fe5724;}
+#popup-container {
+	padding: 0px;
+	max-width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#popup-container .time-remaining {
+	font-size: 16px;
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: 'Gotham Medium';
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border: 0;
+}
+#time   {
+	color: #FFFFFF;
+	background-color: #fe5724;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Gotham Bold';
+	width: 80px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	display: inline-block;
+}
+.pop-clx {
+	clear: both;
+	height: 30px;
+}
+.popup-box-top {
+	/* float: left; */
+	max-width: 800px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb731a+0,ff9727+100 */
+background: #fb731a; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #fb731a 0%, #ff9727 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #fb731a 0%,#ff9727 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #fb731a 0%,#ff9727 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb731a', endColorstr='#ff9727',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 0px;
+	-webkit-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+.popup-box-top h2 {
+	font-family: 'Gotham Black';
+	font-size: 50px;
+	color: #723812;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin-top: 0px;
+}
+.popup-box-top h3 {
+	font-family: "Gotham Medium";
+	/*font-size: 32px; */
+        font-size: 27px;
+	color: #723812;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin-top: 0px;
+}
+.white-txt {
+	color: #FFFFFF;
+}
+
+.popup-box-bottom {
+	background-color: #FFFFFF;
+	/* float: left; */
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 100%;
+	-webkit-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+}
+.popup-box-bottom h2 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	font-family: "Gotham bold";
+	font-size: 32px;
+	color:#3a3a3a;
+}
+.popup-box-bottom h3 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	font-family: 'Gotham Light';
+	font-size: 32px;
+	color:#3a3a3a;
+}
+
+
+.popup-box-optin-area {
+	width: 524px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+.mf501 {
+	background-image: url(../images/name-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 240px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf502 {
+	background-image: url(../images/name-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: right;
+	height: 40px;
+	width: 240px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf503 {
+	background-image: url(../images/country-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 504px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf504 {
+	background-image: url(../images/phone-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 504px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf505 {
+	background-image: url(../images/email-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 240px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf506 {
+	background-image: url(../images/pass-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: right;
+	height: 40px;
+	width: 240px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf501:focus, .mf502:focus, .mf503:focus, .mf504:focus, .mf505:focus, .mf506:focus {
+	color: #96ef1d;
+} 
+.mf507 {
+	float: right;
+	height: 70px;
+	width: 504px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-family: "Gotham Book";
+	font-size: 26px;
+	color: #FFFFFF;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fe5724+0,fe8524+100 */
+background: #fe5724; /* Old browsers */
+	background: -moz-linear-gradient(left,  #fe5724 0%, #fe8524 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #fe5724 0%,#fe8524 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #fe5724 0%,#fe8524 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe5724', endColorstr='#fe8524',GradientType=1 ); /* IE6-9 */
+	white-space: normal;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 4px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #fe8524;
+	border-right-color: #fe8524;
+	border-bottom-color: #bf5713;
+	border-left-color: #fe8524;
+}
+.mf507:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fe8524+0,fe5724+100 */
+background: #fe8524; /* Old browsers */
+	background: -moz-linear-gradient(left,  #fe8524 0%, #fe5724 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #fe8524 0%,#fe5724 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #fe8524 0%,#fe5724 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe8524', endColorstr='#fe5724',GradientType=1 ); /* IE6-9 */
+	color: #000000;
+	text-decoration: none;
+	cursor:pointer;
+}
+.green-txt {
+	color: #96ef1d;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+.popup-box-bottom .member-optin-area .form_wrap.new_btm .profile__fields .form-group input, .popup-box-bottom .member-optin-area .form_wrap.new_btm .profile__fields .form-group select {
+    border-color: #e1e1e1;
+    color: #999;
+}
+
+.popup-box-bottom .time-remaining2 {
+    border: 2px solid #fe5724 !important;
+    color: #3a3a3a;
+    font-family: "Gotham Medium" !important;
+    font-size: 12px !important;
+}
+.popup-box-bottom .hubby { color:#3a3a3a;}
+.popup-box-bottom .member-optin-area .submit_btn:before { display:none;}
+.popup-box-bottom .member-optin-area .profile__fields .form-group .submit_btn input { margin:0 auto; background: rgba(0, 0, 0, 0) url("../images/unlock_cash_org.png") no-repeat scroll 0 0 / 100% auto;}
+.popup-box-bottom .member-optin-area .profile__fields .form-group .submit_btn input:hover { background-position:bottom;} 
+@media only screen and (max-width: 799px) and (min-device-width : 550px) {
+#popup-container {
+	padding: 0px;
+	max-width: 500px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.popup-box-top {
+	/* float: left; */
+	max-width: 500px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb731a+0,ff9727+100 */
+background: #fb731a; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #fb731a 0%, #ff9727 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #fb731a 0%,#ff9727 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #fb731a 0%,#ff9727 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb731a', endColorstr='#ff9727',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 0px;
+	-webkit-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+
+.popup-box-top h2 {
+	font-family: 'Gotham Black';
+	font-size: 32px;
+	color: #723812;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin-top: 0px;
+}
+.popup-box-top h3 {
+	font-family: "Gotham Medium";
+	font-size: 22px;
+	color: #723812;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin-top: 0px;
+}
+.popup-box-bottom h2 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	font-family: "Gotham Black";
+	font-size: 21px;
+}
+.popup-box-bottom h3 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	font-family: 'Gotham Medium';;
+	font-size: 18px;
+}
+.popup-box-optin-area {
+	width: 474px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+.mf501 {
+	background-image: url(../images/name-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 215px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf502 {
+	background-image: url(../images/name-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: right;
+	height: 40px;
+	width: 215px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf503 {
+	background-image: url(../images/country-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 454px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf504 {
+	background-image: url(../images/phone-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 454px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf505 {
+	background-image: url(../images/email-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 215px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf506 {
+	background-image: url(../images/pass-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: right;
+	height: 40px;
+	width: 215px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf507 {
+	float: right;
+	height: 70px;
+	width: 454px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-family: "Gotham Book";
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+}
+}
+
+
+@media only screen and (max-width: 549px) and (min-device-width : 360px) {
+#popup-container {
+	padding: 0px;
+	max-width: 350px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.popup-box-top {
+	/* float: left; */
+	max-width: 350px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb731a+0,ff9727+100 */
+background: #fb731a; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #fb731a 0%, #ff9727 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #fb731a 0%,#ff9727 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #fb731a 0%,#ff9727 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb731a', endColorstr='#ff9727',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 0px;
+	-webkit-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+.popup-box-top h2 {
+	font-family: 'Gotham Black';
+	font-size: 25px;
+	color: #723812;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin-top: 0px;
+}
+.popup-box-top h3 {
+	font-family: "Gotham Medium";
+	font-size: 20px;
+	color: #723812;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin-top: 0px;
+}
+.popup-box-bottom h2 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	font-family: "Gotham Black";
+	font-size: 20px;
+}
+.popup-box-bottom h3 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	font-family: 'Gotham Medium';;
+	font-size: 16px;
+}
+.popup-box-optin-area {
+	width: 324px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+.mf501 {
+	background-image: url(../images/name-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 140px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf502 {
+	background-image: url(../images/name-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: right;
+	height: 40px;
+	width: 140px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf503 {
+	background-image: url(../images/country-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 304px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf504 {
+	background-image: url(../images/phone-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 304px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf505 {
+	background-image: url(../images/email-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 140px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf506 {
+	background-image: url(../images/pass-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: right;
+	height: 40px;
+	width: 140px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf507 {
+	float: right;
+	height: 70px;
+	width: 304px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-family: "Gotham Book";
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+}
+}
+
+
+@media only screen and (max-width: 359px) and (min-device-width : 280px) {
+#popup-container {
+	padding: 0px;
+	max-width: 260px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.popup-box-top {
+	/* float: left; */
+	max-width: 260px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb731a+0,ff9727+100 */
+background: #fb731a; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #fb731a 0%, #ff9727 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #fb731a 0%,#ff9727 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #fb731a 0%,#ff9727 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb731a', endColorstr='#ff9727',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 0px;
+	-webkit-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+.popup-box-top h2 {
+	font-family: 'Gotham Black';
+	font-size: 21px;
+	color: #723812;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin-top: 0px;
+}
+.popup-box-top h3 {
+	font-family: "Gotham Medium";
+	font-size: 17px;
+	color: #723812;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin-top: 0px;
+}
+.popup-box-bottom h2 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	font-family: "Gotham Black";
+	font-size: 18px;
+}
+.popup-box-bottom h3 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	font-family: 'Gotham Medium';;
+	font-size: 15px;
+}
+.popup-box-optin-area {
+	width: 224px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+.mf501 {
+	background-image: url(../images/name-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 90px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf502 {
+	background-image: url(../images/name-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: right;
+	height: 40px;
+	width: 90px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf503 {
+	background-image: url(../images/country-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 204px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf504 {
+	background-image: url(../images/phone-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 204px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf505 {
+	background-image: url(../images/email-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: left;
+	height: 40px;
+	width: 90px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf506 {
+	background-image: url(../images/pass-icon.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	float: right;
+	height: 40px;
+	width: 90px;
+	border: 1px solid #e1e1e1;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 50px;
+	font-family: "Gotham Book";
+	font-size: 14px;
+	color: #757575;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mf507 {
+	float: right;
+	height: 70px;
+	width: 204px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-family: "Gotham Book";
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+}
+}

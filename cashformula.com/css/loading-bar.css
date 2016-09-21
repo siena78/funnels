@@ -1,0 +1,619 @@
+@font-face {
+font-family: 'Gotham Light';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Light'), 
+url('../fonts/gotham-light-webfont.ttf') format('Truetype'),
+url('../fonts/gotham-light-webfont.woff') format('woff'),
+url('../fonts/gotham-light-webfont.eot') format('eot'),
+url('../fonts/gotham-light-webfont.svg') format('svg');
+}
+
+@font-face {
+font-family: 'Gotham Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Medium'), 
+url('../fonts/gotham-medium-webfont.ttf') format('Truetype'),
+url('../fonts/gotham-medium-webfont.woff') format('woff'),
+url('../fonts/gotham-medium-webfont.eot') format('eot'),
+url('../fonts/gotham-medium-webfont.svg') format('svg');
+}
+
+
+@font-face {
+font-family: 'Gotham Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Bold'), 
+url('../fonts/gotham-bold-webfont.ttf') format('Truetype'),
+url('../fonts/gotham-bold-webfont.woff') format('woff'),
+url('../fonts/gotham-bold-webfont.eot') format('eot'),
+url('../fonts/gotham-bold-webfont.svg') format('svg');
+}
+
+@font-face {
+font-family: 'Gotham Black';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Black'), 
+url('../fonts/gotham-black-webfont.ttf') format('Truetype'),
+url('../fonts/gotham-black-webfont.woff') format('woff'),
+url('../fonts/gotham-black-webfont.eot') format('eot'),
+url('../fonts/gotham-black-webfont.svg') format('svg');
+}
+
+@font-face {
+font-family: 'Gotham Book';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Book'), 
+url('../fonts/gotham-book-webfont.ttf') format('Truetype'),
+url('../fonts/gotham-book-webfont.woff') format('woff'),
+url('../fonts/gotham-book-webfont.eot') format('eot'),
+url('../fonts/gotham-book-webfont.svg') format('svg');
+}
+
+
+@font-face {
+font-family: 'Proxima Nova BI';
+font-style: normal;
+font-weight: normal;
+src: local('Proxima Nova BI'), 
+url('../fonts/gotham-book-webfont.ttf') format('Truetype'),
+url('../fonts/gotham-book-webfont.woff') format('woff'),
+url('../fonts/gotham-book-webfont.eot') format('eot'),
+url('../fonts/gotham-book-webfont.svg') format('svg');
+}
+
+@font-face {
+font-family: 'Proxima Nova Rg';
+font-style: normal;
+font-weight: normal;
+src: local('Proxima Nova Rg'), 
+url('../fonts/ProximaNovaRgRegular.ttf') format('Truetype'),
+url('../fonts/ProximaNovaRgRegular.woff') format('woff'),
+url('../fonts/ProximaNovaRgRegular.eot') format('eot'),
+url('../fonts/ProximaNovaRgRegular.svg') format('svg');
+}
+.close_icon { position: absolute; top:20px; right:20px; z-index:999;}
+.loader {
+  margin: 60px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(255, 255, 255, 0.1);
+  border-right: 1.1em solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1.1em solid rgba(255, 255, 255, 0.1);
+  border-left: 1.1em solid #ffbf26;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+  width: 10em;
+  height: 10em;
+  overflow:hidden;
+}
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+#loading-sec {
+    background: url(../images/loadingbar_bg.png) no-repeat;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 0;
+    top: 0;
+	z-index:110;
+}
+.new_fe_loader { overflow: hidden;}
+.loader-area {
+    margin: 150px auto 0;
+    max-width: 380px;
+}
+.loader-area h1 {
+	font-family: 'Gotham Bold';
+	font-size: 32px;
+	font-weight: bold;
+	color: #feaf24;
+	letter-spacing: 5pt;
+	margin-top:50px;
+}
+.loader-area   h4 {
+	font-family: 'Gotham Light';
+	font-size: 18px;
+	color: #FFFFFF;
+	padding:0 10px;
+}
+.loader-area p {
+	font-family: "Gotham Light";
+	font-size: 13px;
+	color: #FFFFFF;
+	letter-spacing: 1pt;
+}
+.loader_logo img{ max-width:200px;}
+.loader-area h4 span {font-family: "Gotham Bold";}
+.loader-area p.almost {font-family: "Gotham Bold";}
+@-ms-viewport{
+  width: device-width;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+.login-size {
+	width: 580px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.login-size h1 {
+	font-family: 'Gotham Bold';
+	font-size: 32px;
+	color: #ffbb25;
+}
+.white {
+	font-family: "Gotham Bold";
+	font-size: 32px;
+	color: #FFFFFF;
+}
+.user   {
+	height: 44px;
+	width: 324px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #6a6868;
+	background-color: #2B2727;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-image: url(../images/user-bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: center;
+	font-family: 'Gotham Light';
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.pass {
+	height: 44px;
+	width: 324px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #6a6868;
+	background-color: #2B2727;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-image: url(../images/pass-bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: center;
+	font-family: 'Gotham Light';
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.login-button {
+	height: 55px;
+	width: 265px;
+	font-family: 'Gotham Black';
+	font-size: 21px;
+	color: #5c3412;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #2b2727;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb731a+0,ffc527+100 */
+background: #fb731a; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #fb731a 0%, #ffc527 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #fb731a 0%,#ffc527 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #fb731a 0%,#ffc527 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb731a', endColorstr='#ffc527',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.login-button:hover {
+	height: 55px;
+	width: 265px;
+	font-family: 'Gotham Black';
+	font-size: 21px;
+	color: #5c3412;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #2b2727;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffc527+0,fb731a+100 */
+background: #ffc527; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #ffc527 0%, #fb731a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #ffc527 0%,#fb731a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #ffc527 0%,#fb731a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc527', endColorstr='#fb731a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+cursor:pointer;
+}
+
+@media only screen and (max-width: 760px) and (min-device-width : 280px) {
+.loader-area {
+	width: 280px;
+	margin:30px auto 0;
+}
+.loader-area h1 {
+	font-family: 'Gotham Bold';
+	font-size: 24px;
+	font-weight: bold;
+	color: #feaf24;
+	letter-spacing: 5pt;
+}
+.loader-area h4 {
+	font-family: 'Gotham Light';
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.loader-area p {
+	font-family: "Gotham Light";
+	font-size: 13px;
+	color: #FFFFFF;
+	letter-spacing: 1pt;
+}
+.login-size {
+	width: 280px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.login-size h1 {
+	font-family: 'Gotham Bold';
+	font-size: 24px;
+	color: #ffbb25;
+}
+.white {
+	font-family: "Gotham Bold";
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.user   {
+	height: 35px;
+	width: 260px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #6a6868;
+	background-color: #2B2727;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-image: url(../images/user-bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: center;
+	font-family: 'Gotham Light';
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.pass {
+	height: 35px;
+	width: 260px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #6a6868;
+	background-color: #2B2727;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-image: url(../images/pass-bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: center;
+	font-family: 'Gotham Light';
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.login-button {
+	height: 30px;
+	width: 220px;
+	font-family: 'Gotham Black';
+	font-size: 21px;
+	color: #5c3412;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #2b2727;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb731a+0,ffc527+100 */
+background: #fb731a; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #fb731a 0%, #ffc527 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #fb731a 0%,#ffc527 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #fb731a 0%,#ffc527 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb731a', endColorstr='#ffc527',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.login-button:hover {
+	height: 30px;
+	width: 220px;
+	font-family: 'Gotham Black';
+	font-size: 21px;
+	color: #5c3412;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #2b2727;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffc527+0,fb731a+100 */
+background: #ffc527; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #ffc527 0%, #fb731a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #ffc527 0%,#fb731a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #ffc527 0%,#fb731a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc527', endColorstr='#fb731a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+cursor:pointer;
+}
+}
+@media only screen and (max-width: 799px) and (min-device-width : 620px) {
+.login-size {
+	width: 550px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.login-size h1 {
+	font-family: 'Gotham Bold';
+	font-size: 32px;
+	color: #ffbb25;
+}
+.white {
+	font-family: "Gotham Bold";
+	font-size: 32px;
+	color: #FFFFFF;
+}
+.user   {
+	height: 44px;
+	width: 324px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #6a6868;
+	background-color: #2B2727;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-image: url(../images/user-bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: center;
+	font-family: 'Gotham Light';
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.pass {
+	height: 44px;
+	width: 324px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #6a6868;
+	background-color: #2B2727;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-image: url(../images/pass-bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: center;
+	font-family: 'Gotham Light';
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.login-button {
+	height: 55px;
+	width: 265px;
+	font-family: 'Gotham Black';
+	font-size: 21px;
+	color: #5c3412;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #2b2727;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb731a+0,ffc527+100 */
+background: #fb731a; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #fb731a 0%, #ffc527 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #fb731a 0%,#ffc527 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #fb731a 0%,#ffc527 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb731a', endColorstr='#ffc527',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.login-button:hover {
+	height: 55px;
+	width: 265px;
+	font-family: 'Gotham Black';
+	font-size: 21px;
+	color: #5c3412;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #2b2727;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffc527+0,fb731a+100 */
+background: #ffc527; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #ffc527 0%, #fb731a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #ffc527 0%,#fb731a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #ffc527 0%,#fb731a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc527', endColorstr='#fb731a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+cursor:pointer;
+}
+}
+@media only screen and (max-width: 619px) and (min-device-width : 480px) {
+.login-size {
+	width: 450px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.login-size h1 {
+	font-family: 'Gotham Bold';
+	font-size: 32px;
+	color: #ffbb25;
+}
+.white {
+	font-family: "Gotham Bold";
+	font-size: 32px;
+	color: #FFFFFF;
+}
+.user   {
+	height: 44px;
+	width: 324px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #6a6868;
+	background-color: #2B2727;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-image: url(../images/user-bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: center;
+	font-family: 'Gotham Light';
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.pass {
+	height: 44px;
+	width: 324px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #6a6868;
+	background-color: #2B2727;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-image: url(../images/pass-bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: center;
+	font-family: 'Gotham Light';
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.login-button {
+	height: 55px;
+	width: 265px;
+	font-family: 'Gotham Black';
+	font-size: 21px;
+	color: #5c3412;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #2b2727;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb731a+0,ffc527+100 */
+background: #fb731a; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #fb731a 0%, #ffc527 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #fb731a 0%,#ffc527 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #fb731a 0%,#ffc527 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb731a', endColorstr='#ffc527',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.login-button:hover {
+	height: 55px;
+	width: 265px;
+	font-family: 'Gotham Black';
+	font-size: 21px;
+	color: #5c3412;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #2b2727;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffc527+0,fb731a+100 */
+background: #ffc527; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #ffc527 0%, #fb731a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #ffc527 0%,#fb731a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #ffc527 0%,#fb731a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc527', endColorstr='#fb731a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+cursor:pointer;
+}
+}
+@media only screen and (max-width: 479px) and (min-device-width : 360px) {
+.login-size {
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.login-size h1 {
+	font-family: 'Gotham Bold';
+	font-size: 32px;
+	color: #ffbb25;
+}
+.white {
+	font-family: "Gotham Bold";
+	font-size: 32px;
+	color: #FFFFFF;
+}
+.user   {
+	height: 44px;
+	width: 324px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #6a6868;
+	background-color: #2B2727;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-image: url(../images/user-bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: center;
+	font-family: 'Gotham Light';
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.pass {
+	height: 44px;
+	width: 324px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #6a6868;
+	background-color: #2B2727;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-image: url(../images/pass-bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: center;
+	font-family: 'Gotham Light';
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.login-button {
+	height: 55px;
+	width: 265px;
+	font-family: 'Gotham Black';
+	font-size: 21px;
+	color: #5c3412;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #2b2727;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb731a+0,ffc527+100 */
+background: #fb731a; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #fb731a 0%, #ffc527 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #fb731a 0%,#ffc527 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #fb731a 0%,#ffc527 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb731a', endColorstr='#ffc527',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.login-button:hover {
+	height: 55px;
+	width: 265px;
+	font-family: 'Gotham Black';
+	font-size: 21px;
+	color: #5c3412;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #2b2727;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffc527+0,fb731a+100 */
+background: #ffc527; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #ffc527 0%, #fb731a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #ffc527 0%,#fb731a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #ffc527 0%,#fb731a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc527', endColorstr='#fb731a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+cursor:pointer;
+}
+}

@@ -1,0 +1,143 @@
+var emailExp = /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/;
+var PreventExitSplash = true;
+function validateEmail(email_value, from_page, fname)
+{
+  var def_value = document.getElementById("email").defaultValue;
+  if(email_value == '' || email_value == def_value)
+  {
+    alert('Please Enter Email Address');
+    return false;
+  }
+  else if(!email_value.match(emailExp))
+  {
+    alert('Please Enter Valid Email Address');
+    return false;
+  }
+  
+  if(!from_page)
+    from_page = 'fe';
+  
+  var backgroundImage = 'mngd.php?email='+email_value+'&t='+from_page;
+  jQuery("#menia_src").attr('src', backgroundImage);
+
+  if(from_page == 'overlay')
+    process_overlay(email_value, from_page, fname);
+  else
+    processnow(email_value, from_page, fname);
+  return false;
+}
+
+function processnow(semail, from_page, fname)
+{ 
+  /*
+  $('.bs-example-modal-sm').modal({
+    backdrop: 'static',
+  });
+  
+  
+ var number = 1; // Get the number from paragraph
+ var set_interval = 100/9;
+ set_interval = 1000/set_interval;
+ // Called the function in each second
+ var interval = setInterval(function () {
+        number++; // Update the value in paragraph
+        if(number <= 100){
+            $(".t_progress").width(number+"%");
+            $(".t_progress_span").text(number+"%");
+        }
+    }, set_interval); // Run for each second
+ */
+  
+  $("#loading-sec").show();
+  $("body").addClass("new_fe_loader");
+    
+  var mt = setTimeout(function(){
+    var email = semail;
+    var ufame = fname;
+    if(!ufame)
+        ufame = 'cffriend';
+
+    jQuery('#squeeze_form1_email').val(email);
+    jQuery('#squeeze_form1_name').val(ufame);
+    jQuery('#squeeze_form1').submit();
+  },1000);
+
+  var mt = setTimeout(function(){
+        var email = semail;
+        var ufame = fname;
+        if(!ufame)
+          ufame = 'cffriend';
+
+        jQuery('#squeeze_form2_email').val(email);
+        jQuery('#squeeze_form2_name').val(ufame);
+        jQuery('#squeeze_form2').submit();
+  },3000);
+
+    var mt = setTimeout(function(){
+        var email = semail;
+        jQuery('#squeeze_form3_email').val(email);
+        jQuery('#squeeze_form3').submit();
+    },6000);
+
+  var mt = setTimeout(function(){
+     if(!mem_rdirect)
+        mem_rdirect = "approved.php";
+     
+     if(mem_rdirect)
+        mem_rdirect = mem_rdirect+"?email="+semail+(fname ? '&fname='+fname : '');
+      
+      top.location.href = mem_rdirect;
+  },10000);
+
+  return false;
+}
+
+
+function process_overlay(semail, from_page, fname)
+{ 
+  $('#overlay').modal('hide');
+  
+  /*$('.bs-example-modal-sm').modal({
+    backdrop: 'static',
+  });
+  
+ var number = 1; // Get the number from paragraph
+ var set_interval = 100/9;
+ set_interval = 400/set_interval;
+ // Called the function in each second
+ var interval = setInterval(function () {
+        number++; // Update the value in paragraph
+        if(number <= 100){
+            $(".t_progress").width(number+"%");
+            $(".t_progress_span").text(number+"%");
+        }
+    }, set_interval); // Run for each second
+ */
+  
+  $("#loading-sec").show();
+  $("body").addClass("new_fe_loader");
+  
+  var mt = setTimeout(function(){
+        var email = semail;
+        var ufame = fname;
+        if(!ufame)
+          ufame = 'cfoverlayfriend';
+
+        jQuery('#squeeze_form4_email').val(email);
+        jQuery('#squeeze_form4_name').val(ufame);
+        jQuery('#squeeze_form4').submit();
+  },1000);
+
+
+  var mt = setTimeout(function(){
+     if(!mem_rdirect)
+        mem_rdirect = "accessapproved.php";
+     
+     if(mem_rdirect)
+        mem_rdirect = mem_rdirect+"?email="+semail;
+      
+      top.location.href = mem_rdirect;
+  },4000);
+
+  return false;
+}
