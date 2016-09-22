@@ -58,6 +58,7 @@
   </style>
 </head>
 <body>
+<?php include_once("analyticstracking.php") ?>
   <!-- Header -->
   <div class="intro-header">
     <!-- Top -->

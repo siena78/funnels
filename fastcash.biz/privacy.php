@@ -24,6 +24,7 @@
   </style>
 </head>
 <body>
+<?php include_once("analyticstracking.php") ?>
   <table width="1100" border="0" align="center" cellpadding="0" cellspacing="0">
     <tr><td>&nbsp;</td></tr>
     <tr><td height="70" align="center" style="color:#111; font-size:24px">fastcash-de.biz Datenschutzerklärung</td></tr>

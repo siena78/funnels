@@ -63,6 +63,7 @@
   <script src="js/phpdate.js"></script>
 </head>
 <body>
+<?php include_once("analyticstracking.php") ?>
   <div id="exitpopup_bg"></div>
   <style>
   #exitpopup_bg {
