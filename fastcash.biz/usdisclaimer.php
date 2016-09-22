@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>U.S. Government Required Disclaimer</title>
-  <link rel="shortcut icon" href="git" />
+  <link rel="shortcut icon" href="assets/favicon.ico" />
   <style type="text/css">
     <!--
     body,td,th {
@@ -13,11 +13,11 @@
       line-height:20px;
     }
     body{
-      background-color: #FFF;
-      margin-left: 0px;
+      background-color: #fff;
+      margin-left: 0;
       margin-top: 10px;
-      margin-right: 0px;
-      margin-bottom: 0px;
+      margin-right: 0;
+      margin-bottom: 0;
     }
     a {
       color:#111
