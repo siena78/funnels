@@ -3,4 +3,4 @@
 .idea
 .DS_Store
 *.psd
-*.odt
+*.odt*
