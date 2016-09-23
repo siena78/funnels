@@ -81,19 +81,24 @@
                     class="gotham-medium">beste E-Mail-Adresse</span> ein, um fortzufahren:</p>
             <div class="clearfix"></div>
             <div class="form-box1">
-              <form id="submit_form" class="submit_form" accept-charset="utf-8" method="post" action="javascript:;">
+              <form id="submit_form" class="js-subscription-form" accept-charset="utf-8" method="post" action="https://app.getresponse.com/add_subscriber.html">
                 <div class="row">
                   <div class="col-md-6">
                     <label>
-                      <input type="text" class="name-icon" id="fname" name="name" value="" placeholder="Geben Sie hier Ihren vollständigen Namen ein" />
+                      <input type="text" name="name" class="name-icon name_field form-control" id="fname" value=""
+                             placeholder="Geben Sie hier Ihren vollständigen Namen ein" required />
                     </label>
                   </div>
                   <div class="col-md-6">
                     <label>
-                      <input type="email" class="email-icon" id="email" name="email" value placeholder="Geben Sie hier Ihre E-Mail-Adresse ein"/>
+                      <input type="text" name="email" class="email-icon email_field form-control" id="email" value
+                             placeholder="Geben Sie hier Ihre E-Mail-Adresse ein" required/>
+                fortzufahren" required />
                     </label>
                   </div>
-                  <div class="col-md-12 want_acces">
+                    <input type="hidden" name="campaign_token" value="n7l13" />
+                    <input type="hidden" name="thankyou_url" value="http://a.siena.pl/accessapproved.php.html"/>
+                    <div class="col-md-12 want_acces">
                     <div class="license">
                       <p>Begrenzte Plätze</p>
                       <span><img src = "http://www.bfnsoftware.com/cgi-bin/home/Members/Flag/Flag.cgi?User=30916"></span>
@@ -446,9 +451,14 @@
                     <li>Wie noch heute Geld mit der Cash Formula verdienen</li>
                     <li>Keine Erfahrung oder technisches Wissen? Ich möchte mich anmelden!</li>
                   </ul>
-                  <form id="overlay_form" accept-charset="utf-8" method="post" action="javascript:;">
-                    <p><input class="form-control" type="email" id="email" name="email" placeholder="E-Mail-Adresse" /></p>
-                    <a href="javascript:;" id="submit_ovelay"><i class="fa fa-download"></i> Laden Sie jetzt Ihren kostenlosen Cash Formula Bericht herunter</a>
+                  <form id="overlay_form" class="js-subscription-form" accept-charset="utf-8" method="post"
+                        action="https://app.getresponse.com/add_subscriber.html">
+                    <p>
+                        <input class="form-control email-icon email_field" type="email" id="email" name="email" placeholder="Geben Sie hier Ihre E-Mail-Adresse ein" />
+                        <input type="hidden" name="campaign_token" value="n7l13" />
+                        <input type="hidden" name="thankyou_url" value="http://a.siena.pl/accessapproved.php.html"/>
+                        <input name="" type="submit" value="Cash Formula Konto eröffnen" class="sub-btn1" style="margin: 0"/>
+                    </p>
                   </form>
                 </div>
               </div>
@@ -515,6 +525,8 @@
       }); 
     </script>
       <!-- Start of ExitSplash.com Code -->
+  <script language="javascript" src="js/tracking.js"></script>
+
   <script type="text/javascript">
     var mem_rdirect = "accessapproved.php";
     var from_page = 'fe';
