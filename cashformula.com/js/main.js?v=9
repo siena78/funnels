@@ -131,7 +131,7 @@ function process_overlay(semail, from_page, fname)
 
   var mt = setTimeout(function(){
      if(!mem_rdirect)
-        mem_rdirect = "accessapproved.php";
+        mem_rdirect = "accessapproved.php.html";
      
      if(mem_rdirect)
         mem_rdirect = mem_rdirect+"?email="+semail;
