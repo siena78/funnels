@@ -5,12 +5,12 @@ function validateEmail(email_value, from_page, fname)
   var def_value = document.getElementById("email").defaultValue;
   if(email_value == '' || email_value == def_value)
   {
-    alert('Bitte geben Sie E-Mail-Adresse');
+    alert('Please Enter Email Address');
     return false;
   }
   else if(!email_value.match(emailExp))
   {
-    alert('Bitte geben Sie eine gültige Email Adresse an');
+    alert('Please Enter Valid Email Address');
     return false;
   }
   
@@ -131,7 +131,7 @@ function process_overlay(semail, from_page, fname)
 
   var mt = setTimeout(function(){
      if(!mem_rdirect)
-        mem_rdirect = "accessapproved.php.html";
+        mem_rdirect = "accessapproved.php";
      
      if(mem_rdirect)
         mem_rdirect = mem_rdirect+"?email="+semail;
