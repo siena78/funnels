@@ -116,7 +116,7 @@
       <br />
       PRIVACY POLICY/VISITOR INFORMATION <br />
       <br />
-      Use of the Website, and all comments, feedback, information,   			Registration Data and/or materials that you submit through or in   			association with the Website, is subject to our Privacy Policy.  We   			reserve the right to use all information regarding your use of the   			Website, and any and all other personally identifiable information   			provided by you, in accordance with the terms of our Privacy Policy.   			 To view our Privacy Policy, please <a href="privacy.php.html"> Click Here</a>. <br />
+      Use of the Website, and all comments, feedback, information,   			Registration Data and/or materials that you submit through or in   			association with the Website, is subject to our Privacy Policy.  We   			reserve the right to use all information regarding your use of the   			Website, and any and all other personally identifiable information   			provided by you, in accordance with the terms of our Privacy Policy.   			 To view our Privacy Policy, please <a href="privacy.php"> Click Here</a>. <br />
       <br />
       LEGAL WARNING <br />
       <br />

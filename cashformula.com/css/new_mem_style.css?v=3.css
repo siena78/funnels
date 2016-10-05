@@ -281,7 +281,7 @@ img{
 	border-radius: 10px;
 	padding-left: 50px;
 	font-family: "Gotham Book";
-	font-size: 14px;
+	font-size: 13px;
 	color: #757575;
 	padding-right: 10px;
 	margin-bottom: 5px;
@@ -299,7 +299,7 @@ img{
 	border-radius: 10px;
 	padding-left: 50px;
 	font-family: "Gotham Book";
-	font-size: 14px;
+	font-size: 13px;
 	color: #757575;
 	padding-right: 10px;
 	margin-bottom: 5px;
@@ -339,7 +339,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f17201', end
 cursor:pointer;
 
 } */
-.sub-btn1{ background: url("../images/iwant_free_btn.png") no-repeat scroll 0 0 / 100% auto;
+.sub-btn1{ background: url("../images/open_cash_btn.png") no-repeat scroll 0 0 / 100% auto;
 	border: 0 none;
 	display: block;
 	height: 52px;
