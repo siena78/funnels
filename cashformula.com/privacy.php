@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Privacy Policy</title>
+  <title>Datenschutzerklärung</title>
   <link rel="shortcut icon" href="http://cashformula.com/images/favicon.ico" />
   <style type="text/css">
     <!--
@@ -28,31 +28,57 @@
 <body>
   <table width="1100" border="0" align="center" cellpadding="0" cellspacing="0">
     <tr><td>&nbsp;</td></tr>
-    <tr><td height="70" align="center" style="color:#111; font-size:24px">cashformula.com Privacy Policy</td></tr>
+    <tr><td height="70" align="center" style="color:#111; font-size:24px">Cash Formula-DE Datenschutzerklärung</td></tr>
     <tr><td align="center">&nbsp;</td></tr>
     <tr>
     <td align="left">
-      By clicking on "Continue", you are giving us permission to send you emails about our offers. If you chose not to receive any more emails, you can always opt out at any time at the bottom of each email.
+      Diese Datenschutzrichtlinie regelt die Art und Weise, in der [Brand_name] Informationen von Nutzern (jeweils ein „Nutzer”) der [Brand_name].com Website („Website”) sammelt, verwendet, pflegt und offenbart. Diese Datenschutzerklärung gilt für die Website sowie für alle von [Brand_name] angebotenen Produkte und Dienstleistungen.
       <br /><br />
-      cashformula.com respects the privacy of every individual who visits our websites. This privacy statement provides notice of the standards and terms under which cashformula.com protects the privacy of information supplied by visitors to sites on the World Wide Web that are owned and operated by cashformula.com, including cashformula.com and <a href="index.php">cashformula.com</a>. This privacy statement provides notice of our information collection practices and of the ways in which your information may be used. This policy may change from time to time, so please check back periodically to review this information.
+      <strong>Personenbezogene Daten</strong><br />
+      Wir können personenbezogene Daten von Nutzern auf verschiedene Weisen sammeln, einschließlich, aber nicht beschränkt darauf, wenn Nutzer unsere Website besuchen und sich auf der Website registrieren sowie im Zusammenhang mit anderen Aktivitäten, Dienstleistungen, Funktionen oder Ressourcen, die wir auf unserer Website zur Verfügung stellen. Nutzer können gegebenenfalls nach Name und E-Mail-Adresse gefragt werden. Nutzer können jedoch unsere Website anonym besuchen. Wir sammeln personenbezogene Daten von Nutzern nur, wenn sie uns diese Informationen freiwillig mitteilen. Nutzer können immer die Angabe personenbezogener Daten verweigern, allerdings kann es sein, dass sie dadurch nicht an gewissen, mit der Website in Zusammenhang stehenden Aktivitäten teilnehmen können.
       <br /><br />
-      <strong>A. Personally-Identifiable Information:</strong><br />
-      cashformula.com typically receives specific data about its website visitors only when such information is provided voluntarily, such as when our visitors request information, purchase or enroll for services, open a customer support inquiry ticket, provide resume information for employment opportunities, or send us e-mail. Of course, some of these activities require that you give us information, such as when you make a purchase, use a credit card to pay for services, submit your resume, or request certain types of information. When you provide personally- identifiable information to cashformula.com through one of our websites, it will be used to fulfill your specific request. In most cases, you will be given the opportunity to select whether you do, or do not, want cashformula.com to use this information for additional purposes. You may also request that cashformula.com not use your information by sending an e-mail to: <a href="mailto:support@cashformulamembersarea.com">support@cashformulamembersarea.com</a> , however, cashformula.com reserves the right, in its discretion, to send you bulletins and other important information about your cashformula.com services. Absent any instructions from you, cashformula.com may use information you provide to inform you about additional services and products offered by the cashformula.com family of companies, cashformula.com authorized agents, and other goods and services providers with whom cashformula.com has relationships and whose offerings might be of interest to you. cashformula.com will not, however, sell or trade your personally-identifiable information unless we are authorized or legally required to do so, or in the case of imminent physical harm to the visitor or others. On those cashformula.com sites where you may provide cashformula.com with credit card or other ordering information via the web, cashformula.com protects and secures this information by employing commercially customary web- based security and encryption protocols, examples of which include Secure Socket Layer (SSL) and Secure Electronic Transaction (SET). On those sites where you voluntarily offer any feedback, data, answers, questions, comments, suggestions, ideas or the like, cashformula.com will treat that portion of the information as non-confidential and nonproprietary and, except as otherwise expressed in this privacy statement, cashformula.com assumes no obligation to protect such information from disclosure.
+      <strong>Nicht-personenbezogene Daten</strong><br />
+      Wir können nicht-personenbezogene Daten zur Identifizierung der Nutzer, wann immer sie mit unserer Website interagieren, sammeln. Zu den nicht-personenbezogenen Daten zählen beispielsweise die Browser-Namen, der Computertyp sowie technische Informationen über die Verbindung des Nutzers zu unserer Website, wie das Betriebssystem und den verwendeten Internet-Service-Provider und andere ähnliche Informationen.
       <br /><br />
-      Examples in these materials are not to be taken as a promise or guarantee of earnings. Earning potential is entirely dependent on the person using our product, ideas, techniques and the effort put forth. We do not purport this as a "get rich scheme", and nor should you view it as such.
+      <strong>Web browser cookies</strong><br />
+      Unsere Website verwendet „Cookies” zur Verbesserung der Benutzerfreundlichkeit. Der Web-Browser des Nutzers legt Cookies auf der Festplatte ab; zu Archivierungszwecken sowie manchmal zur Rückverfolgung von Informationen über den Nutzer. Der Nutzer kann wählen, ob er seinen Web-Browser so einstellt, dass Cookies abgelehnt werden oder er gewarnt wird, wenn Cookies gesendet werden. Wenn Sie dies tun, beachten Sie, dass einige Teile der Website möglicherweise nicht richtig funktionieren.
       <br /><br />
-      <strong>B. Non Personally-Identifiable (Generic) Information:</strong><br />
-      In general, cashformula.com gathers some generic information automatically. Generic information does not reveal the identity of the visitor. It usually includes information about the Internet address assigned to your computer, the number and frequency of visitors, and the cashformula.com sites visited. cashformula.com gathers this information for the limited purpose of determining customer service and website needs. We accomplish this by using certain technologies, including "cookies" (a technology that can be used to provide the visitor with tailored information about cashformula.com services). cashformula.com does not combine information collected in this way with any personally-identifiable information. You can set your browser to notify you when you receive a cookie and you can refuse it.
+      <strong>Wie wir gesammelte Daten verwenden</strong><br />
+      [Brand_name] sammelt und verwendet personenbezogene Daten der Nutzer zu folgenden Zwecken:
+
+      Zur Verbesserung des Kundenservice Ihre Daten helfen uns, auf Ihre Kundendienstanfragen und Supportanfragen effizienter reagieren zu können.<br />
+      Zur Personalisierung der Anwendererfahrung Wir können Informationen insgesamt verwenden, um zu verstehen, wie unsere Nutzer als Gruppe die Dienste und Ressourcen nutzen, die wir auf unserer Website zur Verfügung stellen.<br />
+      Zur Bearbeitung von Zahlungen Wir verwenden die Daten, die uns die Nutzer über sich zur Verfügung stellen, wenn sie einen Auftrag erteilen, nur für den Service für diesen Auftrag. Wir geben diese Informationen nicht an Dritte weiter, außer in dem Umfang, der notwendig ist, um die Dienstleistung zu erbringen.<br />
+      Zur Durchführung von Promotions, Wettbewerben, Umfragen oder anderer Funktionen der Website Um Nutzern Informationen zu senden, deren Empfang sie zugestimmt haben, über Themen, von denen wir meinen, dass sie von Interesse für sie sind.<br />
+      Zum regelmäßigen Versand von E-Mails Wir verwenden die E-Mail-Adressen für den Versand von Benutzerinformationen und Updates, die deren Auftrag betreffen. Sie können auch dafür verwendet werden, um auf Anfragen, Fragen und/oder Anfragen der Nutzer zu reagieren.<br /><br />
+      <strong>Wie wir Ihre Daten schützen</strong><br />
+      Wir verwenden geeignete Methoden zur Datensammlung, Speicherung und Verarbeitung sowie Sicherheitsmaßnahmen zum Schutz vor unbefugtem Zugriff, Veränderung, Weitergabe oder Vernichtung Ihrer persönlichen Daten, Benutzernamen, Passwort, Transaktionsdaten und Daten, die auf unserer Website gespeichert sind.<br />
+      Der Austausch von sensiblen und privaten Daten zwischen der Website und deren Nutzer geschieht über einen SSL-gesicherten Kommunikationskanal, der verschlüsselt und über digitale Signaturen geschützt ist.
       <br /><br />
-      <strong>C. Your cashformula.com hosted website, server, bulletin boards, forum, Third-Party Sites:</strong><br />
-      Information that you disclose in a public space, including on any bulletin board, chat room, or website cashformula.com may host for you as part of your cashformula.com services, is available to anyone else who visits that space. cashformula.com cannot safeguard any information you disclose in these locations. Additionally, cashformula.com websites contain links to sites that belong to third parties unrelated to cashformula.com. cashformula.com cannot protect any information you may disclose in these sites and recommends that you review the privacy policy statements of those sites you visit.
+      <strong>Weitergabe Ihrer personenbezogenen Daten</strong><br />
+      Wir verkaufen, tauschen oder vermieten die personenenbezogenen Daten der Nutzer nicht an Dritte. Wir geben gegebenenfalls generische gesammelte demografische Informationen, die nicht auf personenbezogene Daten der Besucher und Nutzer verweisen, an unsere Geschäftspartnern, vertrauenswürdige Partner und Inserenten zu den oben genannten Zwecken weiter.
       <br /><br />
-      <strong>D. Exceptions and Limitations:</strong><br />
-      Notwithstanding the foregoing and in compliance with applicable laws, cashformula.com (i) cooperates fully with state, local, and federal officials in any investigation relating to any content (including personal or private electronic communications transmitted to cashformula.com) or purported unlawful activities of any user of the Service, and (ii) takes reasonable measures to protect its proprietary rights. For the limited purposes of accomplishing such cooperation and measures and in compliance with applicable laws, cashformula.com may be required to disclose personally identifiable information. In addition, cashformula.com may elect to monitor the areas of communication of any kind (i) to satisfy any law, regulation, or government request; (ii) if such disclosure is necessary or appropriate to operate cashformula.com; or (iii) to protect the rights or property of cashformula.com or others. In connection with the potential sale or transfer of any of its interest in cashformula.com and <a href="index.php">cashformula.com</a> and other sites owned by the company, cashformula.com reserves the right to sell or transfer your information (including , but not limited to name, address information, and other information you provided to cashformula.com) to a third party that (i) concentrates its business in communication products or services; (ii) agrees to be cashformula.com's successor in interest with regard to the maintenance and protection of information collected and maintained by cashformula.com; and (iii) agrees to the obligations of this policy statement.
+      <strong>Websites von Dritten</strong><br />
+      Nutzer finden möglicherweise Werbung oder andere Inhalte auf unserer Website, die auf die Websites und Dienste unserer Partner, Zulieferer, Inserenten, Sponsoren, Lizenzgeber und anderen Dritten verlinken. Wir haben keine Kontrolle über die Inhalte oder Links, die auf diesen Seiten erscheinen und sind nicht für die Praktiken von Websites, auf die von unserer Websites verlinkt wird oder die auf unsere Website verlinken, verantwortlich. Darüber hinaus können sich diese Websites oder Dienste, einschließlich ihrer Inhalte und Links, ständig ändern. Diese Websites und Dienste haben ihre eigenen Datenschutzrichtlinien und Richtlinien für den Kundenservice. Browsing und Interaktion auf einer jeglichen anderen Website, einschließlich Websites, die einen Link zu unserer Website haben, unterliegen den eigenen Bestimmungen und Richtlinien der betreffenden Website.
+      <br /><br />
+      <strong>Übereinstimmung mit dem Children’s Online Privacy Protection Act (Schutz der Privatsphäre von Kindern im Internet)</strong><br />
+      Der Schutz der Privatsphäre von Kindern ist von besonderer Wichtigkeit. Aus diesem Grund sammeln oder behalten wir weder Informationen auf unserer Website, von Personen, von denen wir wissen, dass sie unter 13 Jahre alt sind, noch sind Teile unserer Website ist so strukturiert, um Personen im Alter unter 13 Jahren als Nutzer zu gewinnen.<br />
+      <strong>Veränderungen dieser Datenschutzerklärung</strong><br />
+      [Brand_name] besitzt die Freiheit, diese Datenschutzerklärung jederzeit zu aktualisieren. Wenn wir das tun, bearbeiten wir das aktualisierte Datum am Ende dieser Seite. Wir fordern Nutzer auf, diese Seite häufig zu besuchen, um sowohl über alle Änderungen informiert zu bleiben als auch darüber, wie wir zum Schutz der personenbezogenen Daten beitragen. Sie bestätigen und stimmen zu, dass es in Ihrer Verantwortung liegt, diese Datenschutzerklärung regelmäßig zu überprüfen und Änderungen bewusst wahrzunehmen.
+      <br /><br />
+      <strong>Ihr Einverständnis mit diesen Bedingungen</strong><br />
+      Durch die Nutzung dieser Website geben Sie Ihr Einverständnis mit dieser Richtlinie und den Nutzungsbedingungen. Wenn Sie nicht mit dieser Richtlinie einverstanden sind, nutzen Sie bitte unsere Website nicht. Ihre fortgesetzte Nutzung der Website nach der Veröffentlichung von Änderungen an dieser Richtlinie gilt als Ihr Einverständnis mit diesen Änderungen.
+      <br /><br />
+      <strong>Kontaktieren Sie uns</strong><br />
+      Wenn Sie Fragen zu dieser Datenschutzerklärung, den Praktiken dieser Website oder Ihrem Umgang mit dieser Website haben, kontaktieren Sie uns bitte unter:
+      <br /><br /><br />
+      [Brand_name]<br />
+      [Brand_name].com<br />
+      support@[Brand_name].com<br /><br />
     </td>
     </tr>
     <tr><td align="center">&nbsp;</td></tr>
-    <tr><td align="center">Copyright © 2016 CashFormula.com  |  All Rights Reserved</td></tr>
+    <tr><td align="center">Copyright © 2016 CashFormula-DE.com  |  Alle Rechte vorbehalten.</td></tr>
     <tr><td align="center">&nbsp;</td></tr>
   </table>
 </body>
