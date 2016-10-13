@@ -793,7 +793,7 @@ cursor:pointer;
 }
 
 .mem-optin h3 {
-	font-size: 26px;
+	font-size: 23px;
 	color: #FFFFFF;
 	font-family: 'Gotham Bold';
 	padding: 0px;
@@ -826,7 +826,7 @@ cursor:pointer;
 	display: inline-block;
 }
 .time-remaining2 {
-	font-size: 12px;
+	font-size: 11px;
 	color: #FFFFFF;
 	display: inline-block;
 	font-family: "Gotham Medium";
@@ -838,7 +838,7 @@ cursor:pointer;
 	border-radius: 10px;
 	border: 2px solid #fe5724;
 }
-.hubby { font-size: 12px;color:#fff;font-family: "Gotham Bold";}
+.hubby { font-size: 11px;color:#fff;font-family: "Gotham Bold";}
 .mem-optin .time{
 	font-size: 16px;
 	padding: 5px 0;
@@ -2211,7 +2211,7 @@ cursor:pointer;
 }
 .headline-mem3-area h1 {
 	font-family: "Gotham Black";
-	font-size: 50px;
+	font-size: 46px;
 	color: #FFFFFF;
 	padding: 0px;
 	margin-top: 0px;
@@ -3257,7 +3257,7 @@ button.close { opacity:1 !important;}
 .mem3 .headline-mem-area h2 { font-size:14px; margin-top:0px;}
 .mem3 #mem2-section4 h2 { font-size:34px; text-transform:none;}
 .mem3 #mem2-section4 h3 { font-size:17px;}
-.mem3 .mem-optin .time-remaining2{ border:0px; font-size:24px;font-family: "Gotham Light";}
+.mem3 .mem-optin .time-remaining2{ border:0px; font-size:20px;font-family: "Gotham Light";}
 .mem3 .mem-optin .time {background: rgba(0, 0, 0, 0) url("../images/license.jpg") no-repeat scroll 0 0 / cover ;}
 .mem3 .time { background: #4e1a0d;}
 .mem3 #clock1-area .time { background: #4e1a0d;}
