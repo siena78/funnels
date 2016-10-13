@@ -125,7 +125,7 @@
                 <img src="images/header-logo-tm3.png" alt="" width="184" height="31" align="absmiddle" /><!-- <span class="register-logo">&trade;</span> -->
             </div>
             <div class="col-md-7 footer-links">
-                <p>&copy; 2016 CashFormula. Alle Rechte vorbehalten.</p>
+                <p>&copy; 2016 CashFormula-DE. Alle Rechte vorbehalten.</p>
                 <a target="_blank" href="usdisclaimer.php">Staatlicher Haftungsausschluss</a> |
                 <a target="_blank" href="privacy.php">Datenschutzrichtlinien</a> |
                 <a target="_blank" href="tos.php">Bestimmungen</a> |

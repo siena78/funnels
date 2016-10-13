@@ -2,26 +2,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <script src="https://cdn.optimizely.com/js/6585910006.js"></script>
-  
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Only At CashFormula.com</title>
-    <meta name="description" content="Cash Formula multi-billion dollar loophole revealed">
-    <meta name="keywords" content="Cash Formula, Cash Formula Scam, Cash Formula Review">
+  <title>CashFormula-DE.com</title>
+  <meta name="description" content="Cash Formula multi-billion dollar loophole revealed">
+  <meta name="keywords" content="Cash Formula, Cash Formula Scam, Cash Formula Review">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel='shortcut icon' href='images/favicon3.ico' type='image/x-icon'/>
-
   <!-- Bootstrap -->
   <link rel="stylesheet" type="text/css"  href="css/bootstrap-3.3.6.min.css">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-
   <!-- Stylesheet -->
   <link rel="stylesheet" type="text/css"  href="css/new_mem_style.css%3Fv=3.css">
-  
-      
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  
   <link rel="stylesheet" href="css/acord.css" media="screen" />
-    <link rel="stylesheet" href="css/popup.css%3Fv=1.css" media="screen" /><style>
+  <link rel="stylesheet" href="css/popup.css%3Fv=1.css" media="screen" /><style>
     #testi_row2, #testi_row3, #testi_row4{
         display: none;
     }
@@ -79,37 +73,33 @@
                         <div id="vid-screen">
                             <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
                                 <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
-                                    <div id="wistia_3lkbyb089n" class="wistia_embed" style="width:100%;height:100%;">&nbsp;</div>
+                                    <iframe src="https://www.youtube.com/embed/V_YKwDkvnOk?controls=0&amp;showinfo=0&amp;rel=0&amp;title=0&amp;autohide=1&amp;wmode=transparent&amp;hd=1&amp;autoplay=0" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
                                 </div>
                             </div>
-                            <script charset="ISO-8859-1" src="http://fast.wistia.com/assets/external/E-v1.js"></script>
-                            <script>
-                                wistiaEmbed = Wistia.embed("3lkbyb089n", {videoFoam: true});
-                            </script>
                         </div>
                     </center>
                 </div>
                 <div class="col-md-6">
                     <div id="headline-area">
-                        <h5>WELCOME ABOARD!</h5>
-                        <h2 align="center">Click The Button Below To Secure <img src="images/green_down_arrow.png" alt="" style="vertical-align: bottom;"/></h2>
-                        <h3 align="center"><span class="orange-txt">One</span> of the Remaining <img src="images/white_logo_tm.png" alt="" align="absmiddle" /><!--<span class="register-logo">&trade;</span> --> Spots </h3>
+                        <h5>WILLKOMMEN AN BORD!</h5>
+                        <h2 align="center">Klicken Sie unten auf die Schaltfläche, um sich <img src="images/green_down_arrow.png" alt="" style="vertical-align: bottom;"/></h2>
+                        <h3 align="center"><span class="orange-txt">Einen</span> der verbleibenden Plätze zu <img src="images/white_logo_tm.png" alt="" align="absmiddle" /><!--<span class="register-logo">&trade;</span> --> sichern </h3>
                     </div>
                     <div class="clearfix"></div>
                     <div class="do_next_exit">
                         <img src="images/wait-icon2.png" alt="" align="absmiddle" />
                         <p>
-                            PLEASE <span>DO NOT</span> EXIT THIS PAGE
-                            <label>Or your spot will be given to the next person in line waiting to watch this video.</label>
+                            BITTE <span>VERLASSEN SIE</span> DIESE SEITE NICHT
+                            <label>Oder Ihr Platz wird an die nächste Person in der Reihe vergeben, die darauf wartet, sich dieses Video anzuschauen.</label>
                         </p>
                     </div>
                     <div class="clearfix"></div>
                     <div class="form-box1">
-                        <form id="form1" name="form1" method="post" action="accessapproved.php.html">
+                        <form id="form1" name="form1" method="post" action="accessapproved.php">
                             <div class="row">
                                 <div class="col-md-8 sub-btn2arr-n">
                                     <label>
-                                        <input name="" type="button" value="I Want My Free Account Now      &gt;&gt;" class="sub-btn2-n" onclick="gotoMem();"/>
+                                        <input name="" type="button" value="Ich will jetzt mein kostenloses Konto       &gt;&gt;" class="sub-btn2-n" onclick="gotoMem();"/>
                                     </label>
                                 </div>
                                 <div class="col-md-4">
@@ -117,8 +107,6 @@
                                 </div>
                             </div>
                         </form>
-                        <!-- <p align="center" class="gurantee-txt"><img src="images/lock-icon.png" alt=""  align="absmiddle" /> GUARANTEED SECURE ACCESS ENSURED BY TRUSTED COMPANIES</p>
-                        <p align="center" class="verify"><img src="images/verisign.png" alt=""  /> <img src="images/mcafee.png" alt=""  /> <img src="images/truste.png" alt="" /> <img src="images/norton.png" alt="" /></p> -->
                     </div>
 
                 </div>
@@ -133,10 +121,9 @@
                     <div class="fe1_testimonial">
                         <img src="ms/testys/claire3.png" alt="t1" />
                         <p>
-                            When I met Tim, he decided to give me something much more
-                            valuable than any job.  He gave me hope, he gave me the Formula.
-                            I turned it on and it’s never been off since.
-                            <span><label class="green-txt">Claire D.</label> made <label class="green-txt">$1,221,905.37</label> with the Cash Formula!</span>
+                            Als ich Tim traf, entschied er sich, mir etwas viel wertvolleres als irgendeinen Job zu geben. Er gab mir Hoffnung, er gab mir die Formula. Ich habe es angestellt und seither läuft es durch.
+                            <span><label class="green-txt">Claire D.</label> hat <label class="green-txt">1,221,905.37$</label> mit der Cash
+                                Formula-DE verdient!</span>
                         </p>
                     </div>
                 </div>
@@ -144,10 +131,9 @@
                     <div class="fe1_testimonial">
                         <img src="ms/testys/ron3.png" alt="t1" />
                         <p>
-                            I was one of Tim’s very first students.  I’ve been using the Cash
-                            Formula for a couple of years now and the Options Trading
-                            market has been the most profitable so far!  Tim - you are the man!
-                            <span><label class="green-txt">Ron W.</label> made <label class="green-txt">$5,301,629.71</label> with the Cash Formula!</span>
+                            Ich war einer der allerersten Studenten von Tim. Ich nutze die Cash Formula-DE jetzt seit ein paar Jahren und der Handel mit Optionen war bisher der profitabelste! Tim - Sie sind der Mann!
+                            <span><label class="green-txt">Ron W.</label> hat <label class="green-txt">5,301,629.71$</label> mit der Cash
+                                Formula-DE verdient!</span>
                         </p>
                     </div>
                 </div>
@@ -155,10 +141,10 @@
                     <div class="fe1_testimonial">
                         <img src="ms/testys/randy3.png" alt="t1" />
                         <p>
-                            The Cash Formula is totally hands off and I was never charged
-                            a dime for access, ever!  Tim and the Cash Formula totally
-                            changed my life forever!
-                            <span><label class="green-txt">Randy N.</label> made <label class="green-txt">$3,014,183.54</label> with the Cash Formula!</span>
+                            Die Cash Formula-DE funktioniert vollautomatisch ich musste niemals einen Cent für die Nutzung bezahlen! Tim und die Cash
+                            Formula-DE haben mein Leben für immer völlig verändert!
+                            <span><label class="green-txt">Randy N.</label> hat <label class="green-txt">3,014,183.54$</label> mit der Cash
+                                Formula-DE verdient!</span>
                         </p>
                     </div>
                 </div>
@@ -168,11 +154,9 @@
                     <div class="fe1_testimonial">
                         <img src="ms/testys/juan3.png" alt="t1" />
                         <p>
-                            My past life of being broke feels like a bad nightmare.  Now when
-                            I log into my bank account, I’m seeing multiple 6 figures!  This is
-                            my new reality and ever since I signed up for the Cash Formula, the
-                            money hasn’t stopped.  This is amazing Tim!
-                            <span><label class="green-txt">Juan R.</label> made <label class="green-txt">$778,469.09</label> with the Cash Formula!</span>
+                            Mein bisheriges Leben mit Schulden fühlt sich wie ein schlechter Albtraum an. Wenn ich mich jetzt in mein Bankkonto einlogge, sehe ich 6-stellige Zahlen! Dies ist meine neue Realität und seit ich mich für die Cash Formula-DE angemeldet habe, hat der Geldfluss nicht aufgehört. Dies ist unglaublich, Tim!
+                            <span><label class="green-txt">Juan R.</label> hat <label class="green-txt">778,469.09$</label> mit der Cash
+                                Formula-DE verdient!</span>
                         </p>
                     </div>
                 </div>
@@ -180,11 +164,9 @@
                     <div class="fe1_testimonial">
                         <img src="ms/testys/lauren3.png" alt="t1" />
                         <p>
-                            The Cash Formula saved my marriage!  The Formula allows
-                            you to see happiness in all areas of your life.  That’s the best
-                            part.  It’s funded all my creative ideas and I can’t say enough
-                            about Tim and the Cash Formula Team!
-                            <span><label class="green-txt">Lauren N.</label> made <label class="green-txt">$2,881,949.11</label> with the Cash Formula!</span>
+                            Die Cash Formula-DE hat meine Ehe gerettet! Die Formula ermöglicht Ihnen, Glück in allen Bereichen Ihres Lebens zu sehen. Das ist das Beste daran. Es hat alle meine kreativen Ideen gefördert und ich kann gar nicht genug über Tim und das Team von Cash Formula-DE sagen!
+                            <span><label class="green-txt">Lauren N.</label> hat <label class="green-txt">2,881,949.11$</label> mit der Cash
+                                Formula-DE verdient!</span>
                         </p>
                     </div>
                 </div>
@@ -192,11 +174,9 @@
                     <div class="fe1_testimonial">
                         <img src="ms/testys/julia3.png" alt="t1" />
                         <p>
-                            In the first 30 days I didn’t touch the money.  My first big
-                            withdrawal was $5,000 and I gave that money to my mom.
-                            My first big purchase was my new car - it was heavenly to
-                            step into my new Mercedes!
-                            <span><label class="green-txt">Julia L.</label> made <label class="green-txt">$947,172.55</label> with the Cash Formula!</span>
+                            In den ersten 30 Tagen habe ich das Geld nicht angefasst. Meine erste große Auszahlung war 5.000$ und ich gab das Geld meiner Mutter. Meine erste große Anschaffung war mein neues Auto - es war himmlisch, mich in meinen neuen Mercedes zu setzen!
+                            <span><label class="green-txt">Julia L.</label> hat <label class="green-txt">947,172.55$</label> mit der Cash
+                                Formula-DE verdient!</span>
                         </p>
                     </div>
                 </div>
@@ -206,10 +186,9 @@
                     <div class="fe1_testimonial">
                         <img src="ms/testys/ellen3.png" alt="t1" />
                         <p>
-                            I met Tim four years ago and have made hundreds of thousands
-                            of dollars as a result of using the Cash Formula.  I wouldn’t be
-                            where I am today if it wasn’t for Tim and the Cash Formula!
-                            <span><label class="green-txt">Ellen G.</label> made <label class="green-txt">$810,492.47</label> with the Cash Formula!</span>
+                            Ich traf Tim vor vier Jahren und habe durch die Nutzung der Cash Formula-DE Hunderttausende von Dollar verdient. Ohne Tim und die Cash Formula-DE wäre ich heute nicht dort, wo ich jetzt bin!
+                            <span><label class="green-txt">Ellen G.</label> hat <label class="green-txt">810,492.47$</label> mit der Cash
+                                Formula-DE verdient!</span>
                         </p>
                     </div>
                 </div>
@@ -217,10 +196,9 @@
                     <div class="fe1_testimonial">
                         <img src="ms/testys/clark3.png" alt="t1" />
                         <p>
-                            I haven’t shut this thing off a single minute since I initially signed
-                            up.  I was able to pay my back taxes and have much more money
-                            to spare.  I can’t thank you enough Tim!
-                            <span><label class="green-txt">Clark G.</label> made <label class="green-txt">$4,639,058.28</label> with the Cash Formula!</span>
+                            Ich habe dieses Ding nicht eine einzige Minute ausgeschaltet seit ich mich angemeldet habe. Ich konnte meine Steuern zurückzahlen und habe noch viel mehr Geld zum Sparen. Ich kann Ihnen nicht genug danken, Tim!
+                            <span><label class="green-txt">Clark G.</label> hat <label class="green-txt">4,639,058.28$</label> mit der Cash
+                                Formula-DE verdient!</span>
                         </p>
                     </div>
                 </div>
@@ -228,11 +206,9 @@
                     <div class="fe1_testimonial">
                         <img src="ms/testys/monique3.png" alt="t1" />
                         <p>
-                            I’ve invested a large portion of my earnings right back into the
-                            Cash Formula.  The system has generated a 76% return on my
-                            investment.  This is the most valuable and powerful system on
-                            the market today!
-                            <span><label class="green-txt">Monique S.</label> made <label class="green-txt">$1,629,827.45</label> with the Cash Formula!</span>
+                            Ich habe einen großen Teil meiner Einnahmen direkt zurück in die Cash Formula-DE investiert. Das System hat eine 76% Rendite auf mein Investment generiert. Dies ist heute das wertvollste und leistungsstärkste System auf dem Markt!
+                            <span><label class="green-txt">Monique S.</label> hat <label class="green-txt">1,629,827.45$</label> mit der Cash
+                                Formula-DE verdient!</span>
                         </p>
                     </div>
                 </div>
@@ -242,10 +218,9 @@
                     <div class="fe1_testimonial">
                         <img src="ms/testys/phillip3.png" alt="t1" />
                         <p>
-                            I’ve saved all the money made from the Cash Formula and
-                            it goes directly into a mutual fund where I get a decent return.
-                            My goal is to make as much as I can and let it last for generations.
-                            <span><label class="green-txt">Phillip L.</label> made <label class="green-txt">$3,855,613.94</label> with the Cash Formula!</span>
+                            Ich habe das gesamte, durch die Cash Formula-DE verdiente Geld gespart und es geht direkt in einen Investmentfonds, wo ich eine anständige Rendite bekomme. Mein Ziel ist, so viel wie möglich zu verdienen, damit es für Generationen reicht.
+                            <span><label class="green-txt">Phillip L.</label> hat <label class="green-txt">3,855,613.94$</label> mit der Cash
+                                Formula-DE verdient!</span>
                         </p>
                     </div>
                 </div>
@@ -253,10 +228,9 @@
                     <div class="fe1_testimonial">
                         <img src="ms/testys/richard3.png" alt="t1" />
                         <p>
-                            I got my wife a new wedding ring and we renewed our vows.
-                            That was my first large purchase thanks to the Cash Formula.
-                            Additionally, I’ve been reinvesting into stocks and bonds.
-                            <span><label class="green-txt">Richard M.</label> made <label class="green-txt">$2,881,949.11</label> with the Cash Formula!</span>
+                            Ich habe meiner Frau einen neuen Ehering gekauft und wir haben unsere Ehegelübde erneuert. Dank der Cash Formula-DE war das meine erste große Anschaffung. Darüber hinaus habe ich in Aktien und Anleihen reinvestiert.
+                            <span><label class="green-txt">Richard M.</label> hat <label class="green-txt">2,881,949.11$</label> mit der Cash
+                                Formula-DE verdient!</span>
                         </p>
                     </div>
                 </div>
@@ -264,10 +238,9 @@
                     <div class="fe1_testimonial">
                         <img src="ms/testys/louise3.png" alt="t1" />
                         <p>
-                            I have made over $10,000 in 3 days of using the Cash Formula.
-                            The Formula predicts this amount to double over the next
-                            few days.  Thanks Tim - Finally something that works!
-                            <span><label class="green-txt">Louise M.</label> made <label class="green-txt">$1,059,371.60</label> with the Cash Formula!</span>
+                            Ich habe in 3 Tagen über 10.000$ mit der Cash Formula-DE verdient. Die Formula prognostiziert eine Verdopplung dieses Betrags in den nächsten Tagen. Vielen Dank Tim - endlich etwas, das funktioniert!
+                            <span><label class="green-txt">Louise M.</label> hat <label class="green-txt">1,059,371.60$</label> mit der Cash
+                                Formula-DE verdient!</span>
                         </p>
                     </div>
                 </div>
@@ -281,14 +254,15 @@
     <div class="">
         <div class="row">
             <div class="col-md-5 copyright">
-                <img src="images/header-logo-tm3.png" alt="" width="184" height="31" align="absmiddle" /> &copy; 2016 CashFormula. All Rights Reserved.      </div>
+                <img src="images/header-logo-tm3.png" alt="" width="184" height="31" align="absmiddle" /> &copy; 2016 CashFormula-DE. Alle Rechte
+                vorbehalten.     </div>
             <div class="col-md-7 footer-links">
-                <a target="_blank" href="usdisclaimer.php">Government Disclaimer</a> |
-                <a target="_blank" href="privacy.php">Privacy Policy</a> |
-                <a target="_blank" href="tos.php">Terms</a> |
-                <a target="_blank" href="disclaimer.php">Earnings Disclaimer</a> |
-                <a target="_blank" href="anti_spam_policy.php">Spam Policy</a> |
-                <a href="mailto:support@cashformulamembersarea.com">Support</a>
+                <a target="_blank" href="usdisclaimer.php">Staatlicher Haftungsausschluss</a> |
+                <a target="_blank" href="privacy.php">Datenschutzrichtlinien</a> |
+                <a target="_blank" href="tos.php">Bestimmungen</a> |
+                <a target="_blank" href="disclaimer.php">Gewinn-Haftungsausschluss</a> |
+                <a target="_blank" href="anti_spam_policy.php">Spam-Richtlinien</a> |
+                <a href="mailto:support@cashformulamembersarea.com">Hilfe</a>
             </div>
         </div>
     </div>
@@ -306,8 +280,14 @@
                 <button type="button" class="close close_n" onclick="close_overlay();"><span aria-hidden="true"><img src="images/cross-icon-org.png" width="30" alt="" /></span></button>
                 <div class="chance_wrap">
                     <div class="chance_headr">
-                        <h2 style="color: #fff; padding: 10px 45px; margin-bottom: 0px; font-size: 20px; text-align: center; font-weight: bold;">THIS QUALIFIES YOU FOR AN INSTANT CASH BONUS OF UP TO $10,000!</h2>
-                        <div id="overVid"><img src="images/video_img.jpg" alt="" /></div>
+                        <h2 style="color: #fff; padding: 10px 45px; margin-bottom: 0px; font-size: 20px; text-align: center; font-weight: bold;">DIES BERECHTIGT SIE FÜR EINEN SOFORTIGEN BARGELD-BONUS VON BIS ZU 10.000$!</h2>
+                        <div id="overVid">
+                            <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                                <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                    <iframe src="https://www.youtube.com/embed/V_YKwDkvnOk?controls=0&amp;showinfo=0&amp;rel=0&amp;title=0&amp;autohide=1&amp;wmode=transparent&amp;hd=1&amp;autoplay=0" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                </div>
+                            </div>
+                        </div>
                         <p>&nbsp;</p>
                     </div>
                     <div class="modal_form">
@@ -405,7 +385,7 @@
     var exitsplashmessage = '***************************************\n W A I T   B E F O R E   Y O U   G O !\n\n  CLICK *STAY ON THIS PAGE* BUTTON RIGHT NOW\n     TO STAY GET THE EXACT METHOD THAT\n  BANKED ME $35,827.29 IN JUST 24 HOURS!\n\n     >> STAY ON THIS PAGE <<\n\n***************************************';
     var exitsplashpage = 'approved.php';
 </script>
-<script language="javascript" src="exitsplash.html%3Fv=1.html"></script>
+
 
 </body>
 </html>
