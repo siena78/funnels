@@ -257,11 +257,9 @@
                 <img src="images/header-logo-tm3.png" alt="" width="184" height="31" align="absmiddle" /> &copy; 2016 CashFormula-DE. Alle Rechte
                 vorbehalten.     </div>
             <div class="col-md-7 footer-links">
-                <a target="_blank" href="usdisclaimer.php">Staatlicher Haftungsausschluss</a> |
+                <a target="_blank" href="disclaimer.php">Haftungsausschluss</a> |
                 <a target="_blank" href="privacy.php">Datenschutzrichtlinien</a> |
                 <a target="_blank" href="tos.php">Bestimmungen</a> |
-                <a target="_blank" href="disclaimer.php">Gewinn-Haftungsausschluss</a> |
-                <a target="_blank" href="anti_spam_policy.php">Spam-Richtlinien</a> |
                 <a href="mailto:support@cashformulamembersarea.com">Hilfe</a>
             </div>
         </div>

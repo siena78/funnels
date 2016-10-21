@@ -605,11 +605,9 @@
         </div>
 		</div>
       <div class="col-md-8 footer-links2">
-        <a target="_blank" href="usdisclaimer.php">Staatlicher Haftungsausschluss</a> |
+        <a target="_blank" href="disclaimer.php">Haftungsausschluss</a> |
         <a target="_blank" href="privacy.php">Datenschutzrichtlinien</a> |
         <a target="_blank" href="tos.php">Bestimmungen</a> |
-        <a target="_blank" href="disclaimer.php">Gewinn-Haftungsausschluss</a> |
-        <a target="_blank" href="anti_spam_policy.php">Spam-Richtlinien</a> |
         <a href="mailto:support@cashformulamembersarea.com">Hilfe</a>
         <p>&copy; 2016 CashFormula-DE. Alle Rechte vorbehalten.</p>
       </div>
