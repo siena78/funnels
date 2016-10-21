@@ -126,14 +126,15 @@
                     <div id="fe1_testimonial_2" class="fe1_testimonial fe_display_none">
                         <img src="ms/testys/ron3.png" alt="t1" />
                         <p>
-                            Ich war einer der allerersten Studenten von Tim. Ich nutze die Cash Formula jetzt seit ein paar Jahren und der Handel mit Optionen war bisher der profitabelste! Tim - Sie sind der Mann!
+                            Ich war einer der allerersten Studenten von Tim. Ich nutze die Cash Formula-DE jetzt seit ein paar Jahren und der Handel mit Optionen war bisher der profitabelste! Tim - Sie sind der Mann!
                             <span><label class="green-txt">Ron W.</label> hat <label class="green-txt">5,301,629.71$</label> with the Cash Formula!</span>
                         </p>
                     </div>
                     <div id="fe1_testimonial_3" class="fe1_testimonial fe_display_none">
                         <img src="ms/testys/randy3.png" alt="t1" />
                         <p>
-                            Die Cash Formula funktioniert vollautomatisch ich musste niemals einen Cent für die Nutzung bezahlen! Tim und die Cash Formula haben mein Leben für immer völlig verändert!
+                            Die Cash Formula-DE funktioniert vollautomatisch ich musste niemals einen Cent für die Nutzung bezahlen! Tim und die Cash
+                            Formula-DE haben mein Leben für immer völlig verändert!
                             <span><label class="green-txt">Randy N.</label> hat <label class="green-txt">3,014,183.54$</label> mit der Cash Formula-DE
                                 verdient!</span>
                         </p>
@@ -141,14 +142,14 @@
                     <div id="fe1_testimonial_4" class="fe1_testimonial fe_display_none">
                         <img src="ms/testys/juan3.png" alt="t1" />
                         <p>
-                            Mein bisheriges Leben mit Schulden fühlt sich wie ein schlechter Albtraum an. Wenn ich mich jetzt in mein Bankkonto einlogge, sehe ich 6-stellige Zahlen! Dies ist meine neue Realität und seit ich mich für die Cash Formula angemeldet habe, hat der Geldfluss nicht aufgehört. Dies ist unglaublich, Tim!
+                            Mein bisheriges Leben mit Schulden fühlt sich wie ein schlechter Albtraum an. Wenn ich mich jetzt in mein Bankkonto einlogge, sehe ich 6-stellige Zahlen! Dies ist meine neue Realität und seit ich mich für die Cash Formula-DE angemeldet habe, hat der Geldfluss nicht aufgehört. Dies ist unglaublich, Tim!
                             <span><label class="green-txt">Juan R.</label> hat <label class="green-txt">778,469.09$</label> with the Cash Formula!</span>
                         </p>
                     </div>
                     <div id="fe1_testimonial_5" class="fe1_testimonial fe_display_none">
                         <img src="ms/testys/lauren3.png" alt="t1" />
                         <p>
-                            Die Cash Formula hat meine Ehe gerettet! Die Formula ermöglicht Ihnen, Glück in allen Bereichen Ihres Lebens zu sehen. Das ist das Beste daran. Es hat alle meine kreativen Ideen gefördert und ich kann gar nicht genug über Tim und das Team von Cash Formula sagen!
+                            Die Cash Formula-DE hat meine Ehe gerettet! Die Formula ermöglicht Ihnen, Glück in allen Bereichen Ihres Lebens zu sehen. Das ist das Beste daran. Es hat alle meine kreativen Ideen gefördert und ich kann gar nicht genug über Tim und das Team von Cash Formula-DE sagen!
                             <span><label class="green-txt">Lauren N.</label> hat <label class="green-txt">2,881,949.11$</label> mit der Cash Formula-DE
                                 verdient!</span>
                         </p>
@@ -163,7 +164,7 @@
                     <div id="fe1_testimonial_7" class="fe1_testimonial fe_display_none">
                         <img src="ms/testys/ellen3.png" alt="t1" />
                         <p>
-                            Ich traf Tim vor vier Jahren und habe durch die Nutzung der Cash Formula Hunderttausende von Dollar verdient. Ohne Tim und die Cash Formula wäre ich heute nicht dort, wo ich jetzt bin!
+                            Ich traf Tim vor vier Jahren und habe durch die Nutzung der Cash Formula-DE Hunderttausende von Dollar verdient. Ohne Tim und die Cash Formula-DE wäre ich heute nicht dort, wo ich jetzt bin!
                             <span><label class="green-txt">Ellen G.</label> hat <label class="green-txt">810,492.47$</label> with the Cash Formula!</span>
                         </p>
                     </div>
@@ -178,7 +179,7 @@
                     <div id="fe1_testimonial_9" class="fe1_testimonial fe_display_none">
                         <img src="ms/testys/monique3.png" alt="t1" />
                         <p>
-                            Ich habe einen großen Teil meiner Einnahmen direkt zurück in die Cash Formula investiert. Das System hat eine 76% Rendite auf mein Investment generiert. Dies ist heute das wertvollste und leistungsstärkste System auf dem Markt!
+                            Ich habe einen großen Teil meiner Einnahmen direkt zurück in die Cash Formula-DE investiert. Das System hat eine 76% Rendite auf mein Investment generiert. Dies ist heute das wertvollste und leistungsstärkste System auf dem Markt!
                             <span><label class="green-txt">Monique S.</label> hat <label class="green-txt">1,629,827.45$</label> mit der Cash Formula-DE
                                 verdient!</span>
                         </p>
@@ -186,7 +187,7 @@
                     <div id="fe1_testimonial_10" class="fe1_testimonial fe_display_none">
                         <img src="ms/testys/phillip3.png" alt="t1" />
                         <p>
-                            Ich habe das gesamte, durch die Cash Formula verdiente Geld gespart und es geht direkt in einen Investmentfonds, wo ich eine anständige Rendite bekomme. Mein Ziel ist, so viel wie möglich zu verdienen, damit es für Generationen reicht.
+                            Ich habe das gesamte, durch die Cash Formula-DE verdiente Geld gespart und es geht direkt in einen Investmentfonds, wo ich eine anständige Rendite bekomme. Mein Ziel ist, so viel wie möglich zu verdienen, damit es für Generationen reicht.
                             <span> <label class="green-txt">Phillip L.</label> hat <label class="green-txt">3,855,613.94$</label> mit der Cash Formula-DE
                                 verdient!</span>
                         </p>
@@ -194,7 +195,7 @@
                     <div id="fe1_testimonial_11" class="fe1_testimonial fe_display_none">
                         <img src="ms/testys/richard3.png" alt="t1" />
                         <p>
-                            Ich habe meiner Frau einen neuen Ehering gekauft und wir haben unsere Ehegelübde erneuert. Dank der Cash Formula war das meine erste große Anschaffung. Darüber hinaus habe ich in Aktien und Anleihen reinvestiert.
+                            Ich habe meiner Frau einen neuen Ehering gekauft und wir haben unsere Ehegelübde erneuert. Dank der Cash Formula-DE war das meine erste große Anschaffung. Darüber hinaus habe ich in Aktien und Anleihen reinvestiert.
                             <span><label class="green-txt">Richard M.</label> hat <label class="green-txt">2,881,949.11$</label> mit der Cash Formula-DE
                                 verdient!</span>
                         </p>
@@ -202,7 +203,7 @@
                     <div id="fe1_testimonial_12" class="fe1_testimonial fe_display_none">
                         <img src="ms/testys/louise3.png" alt="t1" />
                         <p>
-                            Ich habe in 3 Tagen über 10.000$ mit der Cash Formula verdient. Die Formula prognostiziert eine Verdopplung dieses Betrags in den nächsten Tagen. Vielen Dank Tim - endlich etwas, das funktioniert!
+                            Ich habe in 3 Tagen über 10.000$ mit der Cash Formula-DE verdient. Die Formula prognostiziert eine Verdopplung dieses Betrags in den nächsten Tagen. Vielen Dank Tim - endlich etwas, das funktioniert!
                             <span><label class="green-txt">Louise M.</label> hat <label class="green-txt">1,059,371.60$</label> mit der Cash Formula-DE
                                 verdient!</span>
                         </p>
@@ -224,7 +225,8 @@
     <div class="">
         <div class="row">
             <div class="col-md-5 copyright">
-                <img src="images/header-logo-tm3.png" alt="" width="184" height="31" align="absmiddle" /> &copy; 2016 CashFormula. All Rights Reserved. </div>
+                <img src="images/header-logo-tm3.png" alt="" width="184" height="31" align="absmiddle" /> &copy; 2016 CashFormula. Alle Rechte
+                vorbehalten.</div>
             <div class="col-md-7 footer-links">
                 <a target="_blank" href="disclaimer.php">Haftungsausschluss</a> |
                 <a target="_blank" href="privacy.php">Datenschutzrichtlinien</a> |
