@@ -37,7 +37,7 @@
             <!-- big-container -->
             <div class="row">
                 <div class="col-md-3 ">
-                    <div><img src="images/header-logo-tm3" alt="">
+                    <div><img src="images/header-logo-tm4.png" alt="">
                         <!-- <span class="register-logo">&trade;</span> --></div>
                 </div>
                 <div class="col-md-8">
