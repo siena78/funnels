@@ -358,7 +358,7 @@
   <div id="mem1-section5">
     <div class="container">
   <h2 align="center">F<span class="orange-txt">A</span>Q</h2>
-  <h3 align="center">Sie sehen nicht, was Sie suchen? <a href="mailto:support@cashformulamembersarea.com">Mailen Sie uns</a></h3>
+  <h3 align="center">Sie sehen nicht, was Sie suchen? <a href="mailto:support@[Brand_name].com">Mailen Sie uns</a></h3>
   <div class="clearfix"></div>
   <div class="wrap-faq">
     <div id="st-accordion" class="st-accordion">
@@ -601,14 +601,14 @@
         <!-- <img src="images/footer-logo.png" alt="" width="184" height="31" align="absmiddle" /> &copy; 2016 CashFormula. All Rights Reserved.-->
         <div class="support">
           <h3>Brauchen Sie Hilfe?</h3>
-          <h5><i class="fa fa-envelope"></i> support@cashformulamembersarea.com</h5>
+          <h5><i class="fa fa-envelope"></i> support@[Brand_name].com</h5>
         </div>
 		</div>
       <div class="col-md-8 footer-links2">
         <a target="_blank" href="disclaimer.php">Haftungsausschluss</a> |
         <a target="_blank" href="privacy.php">Datenschutzrichtlinien</a> |
         <a target="_blank" href="tos.php">Bestimmungen</a> |
-        <a href="mailto:support@cashformulamembersarea.com">Hilfe</a>
+        <a href="mailto:support@[Brand_name].com">Hilfe</a>
         <p>&copy; 2016 CashFormula-DE. Alle Rechte vorbehalten.</p>
       </div>
     </div>

@@ -247,7 +247,7 @@
                 <a target="_blank" href="disclaimer.php">Haftungsausschluss</a> |
                 <a target="_blank" href="privacy.php">Datenschutzrichtlinien</a> |
                 <a target="_blank" href="tos.php">Bestimmungen</a> |
-                <a href="mailto:support@cashformulamembersarea.com">Hilfe</a>
+                <a href="mailto:support@[Brand_name].com">Hilfe</a>
             </div>
         </div>
     </div>
