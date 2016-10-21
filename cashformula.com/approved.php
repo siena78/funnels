@@ -3,7 +3,7 @@
 <head>
   <script src="https://cdn.optimizely.com/js/6585910006.js"></script>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Only At CashFormula-DE.com</title>
+  <title>CashFormula-DE.com</title>
   <meta name="description" content="Cash Formula-DE multi-billion dollar loophole revealed">
   <meta name="keywords" content="Cash Formula, Cash Formula-DE Scam, Cash Formula-DE Review">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -597,14 +597,14 @@
 </script>  <div id="footer">
   <div class="">
     <div class="row">
-      <div class="col-md-4 copyright">
+      <div class="col-md-5 copyright">
         <!-- <img src="images/footer-logo.png" alt="" width="184" height="31" align="absmiddle" /> &copy; 2016 CashFormula. All Rights Reserved.-->
         <div class="support">
           <h3>Brauchen Sie Hilfe?</h3>
           <h5><i class="fa fa-envelope"></i> support@[Brand_name].com</h5>
         </div>
 		</div>
-      <div class="col-md-8 footer-links2">
+      <div class="col-md-7 footer-links2">
         <a target="_blank" href="disclaimer.php">Haftungsausschluss</a> |
         <a target="_blank" href="privacy.php">Datenschutzrichtlinien</a> |
         <a target="_blank" href="tos.php">Bestimmungen</a> |
