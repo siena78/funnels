@@ -2,8 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Datenschutzerklärung</title>
-  <link rel="shortcut icon" href="http://cashformula.com/images/favicon.ico" />
+  <title>CashFormula-DE.com - Datenschutzerklärung</title>
+  <meta name="description" content="Cash Formula multi-billion dollar loophole revealed">
+  <meta name="keywords" content="Cash Formula, Cash Formula Scam, Cash Formula Review">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='shortcut icon' href='images/favicon3.ico' type='image/x-icon'/>
   <style type="text/css">
     <!--
     body,td,th {
