@@ -634,7 +634,7 @@
               <div class=" mem-optin ">
                 <p align="center "><span class="hubby ">HURRY BEFORE THE OFFER EXPIRES! </span><span class="time-remaining2 ">TIME REMAINING BEFORE OFFER EXPIRES</span> <span class="time minutes3 ">00</span>  <span class="time seconds3 ">00</span></p>
                 <div class="clearfix "></div>
-                <h2 align="center ">Please Register Your Cash Formula Below</h2>
+                <h2 align="center ">Please Register Your Cash Formula-DE Below</h2>
                 <div class="clearfix "></div>
                 <div class="progress progress-striped active ">
                   <div class="progress-bar progress-bar-success " role="progressbar " aria-valuenow="40 " aria-valuemin="0 " aria-valuemax="100 " style="width:75% ">

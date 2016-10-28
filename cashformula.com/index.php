@@ -88,7 +88,7 @@
                       <span><img src = "http://www.bfnsoftware.com/cgi-bin/home/Members/Flag/Flag.cgi?User=30916"></span>
                     </div>
                     <label>
-                      <input name="" type="submit" value="Cash Formula Konto eröffnen      &gt;&gt;" class="sub-btn1" />
+                      <input name="" type="submit" value="Cash Formula-DE Konto eröffnen      &gt;&gt;" class="sub-btn1" />
                     </label>
                   </div>
                 </div>
@@ -378,13 +378,14 @@
                   <ul>
                     <li>Die Hauptgrund, warum Sie nicht reich sind... noch nicht</li>
                     <li>Die nackte Wahrheit hinter dem manipulierten Wirtschaftssystem</li>
-                    <li>Die Geheimnisse von Cash Formula offengelegt</li>
-                    <li>Wie noch heute Geld mit der Cash Formula verdienen</li>
+                    <li>Die Geheimnisse von Cash Formula-DE offengelegt</li>
+                    <li>Wie noch heute Geld mit der Cash Formula-DE verdienen</li>
                     <li>Keine Erfahrung oder technisches Wissen?</li>
                   </ul>
                   <form id="overlay_form" accept-charset="utf-8" method="post" action="javascript:;">
                     <p><input class="form-control" type="email" id="email" name="email" placeholder="E-Mail-Adresse" /></p>
-                    <a href="javascript:;" id="submit_ovelay"><i class="fa fa-download"></i> Laden Sie jetzt Ihren kostenlosen Cash Formula Bericht herunter</a>
+                    <a href="javascript:;" id="submit_ovelay"><i class="fa fa-download"></i> Laden Sie jetzt Ihren kostenlosen Cash Formula-DE Bericht
+                        herunter</a>
                   </form>
                 </div>
               </div>
